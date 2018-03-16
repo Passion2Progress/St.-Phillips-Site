@@ -1,0 +1,731 @@
+body{
+	font: 15px/1.5 'Josefin Sans', Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*font-size: 15px;*/
+	/*line-height: 1.5;*/
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+p {
+	font-family: 'Merriweather', sans-serif;
+}
+
+/* Global */
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.button_1 {
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #FFF
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.dark {
+	padding: 15px;
+	background: #35424a;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* Global End */
+
+
+/* Header */
+header {
+	background: #ACACAC;
+	color: #FFF;
+	padding-top: 5px;
+	min-height: 60px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 18px 0 18px; 
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #6d080c;
+
+}
+
+header a:hover {
+	color: #d6797d;
+}
+/* header end */
+
+
+/* carousel */
+#caro-img {
+	max-height: 675px;
+}
+/* carousel end */
+
+
+/* boxes content */
+#boxes {
+	margin-top: 5%;
+}
+
+#boxes h2 {
+	color: #FFFFFF;
+}
+
+#boxes .box {
+	float: left; 
+	text-align: center;
+	width: 50%;
+}
+
+#boxes .box img{
+	min-width: 60%;
+	min-height: 256px;
+	margin: 0;
+	border: 1em solid grey;
+}
+
+#boxes .box h2 {
+	font-size: 250%;
+	background:rgba(186,32,38,0.8);
+	margin: 0 auto;
+	width: 60%;
+}
+
+#boxes .box p {
+	width: 60%;
+	text-align: left;
+	margin: 0 auto;
+	background:rgba(186,32,38,0.8);
+	border: 5% solid black;
+	padding: 2.5% 2.5%;
+	color: #FFFFFF;
+	border-bottom: 1em solid grey;
+}
+
+/* boxes end */
+
+/* event */
+
+#title {
+	display: inline-block;
+	margin-top: 2em;
+}
+
+.dates h1{
+	margin: 0;
+	margin-top: .1em;
+	font-weight: bold;
+	font-size: 350%;
+	color: grey;
+}
+
+.dates-past h1{
+	margin: 0;
+	margin-top: .1em;
+	font-weight: bold;
+	font-size: 350%;
+	color: white;
+}
+
+.dates-past h4{
+	font-style: italic;
+	margin: 0;
+	font-size: 150%;
+	color: white;
+}
+
+.dates-past h4{
+	font-style: italic;
+	margin: 0;
+	font-size: 150%;
+	color: white;
+}
+
+.dates h3{
+	margin: 0;
+	color: grey;
+}
+
+.dates-past h3{
+	margin: 0;
+	color: white;
+}
+
+.coll {
+	float: left;
+	margin: 0;
+}
+
+.coll-img {
+	margin-top: .3em;
+	margin-left: 12em;
+}
+
+.coll-img-past {
+	margin-top: .3em;
+	margin-left: 12em;
+}
+
+.coll-img img {
+	margin-left: 1em;
+	margin-right: .5em;
+	max-height: 125px;
+	max-width: 125px;
+	min-height: 125px;
+	min-width: 125px;
+	border: 6px solid grey;
+}
+
+.coll-img-past img {
+	margin-left: 1em;
+	margin-right: .5em;
+	max-height: 125px;
+	max-width: 125px;
+	min-height: 125px;
+	min-width: 125px;
+	border: 6px solid white;
+}
+
+.coll-cam {
+	margin-top: 2.8em;
+}
+
+.coll-cam-past {
+	margin-top: 2.8em;
+}
+
+.coll-cam img {
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	min-width: 50px;
+	margin: 0;
+	border: 2px solid grey;
+	border-radius: 1em;
+	padding: 1em 1em 1em 1em;
+}
+
+.coll-cam-past img {
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	min-width: 50px;
+	margin: 0;
+	border: 2px solid white;
+	border-radius: 1em;
+	padding: 1em 1em 1em 1em;
+}
+
+.p-text {
+	margin-top: 1em;
+	margin-bottom: 4em;
+	border: 2px solid grey;
+	background-color: darkgrey;
+}
+
+.p-text-past {
+	margin-top: 1em;
+	margin-bottom: 4em;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.p-text p {
+	color: white;
+	margin: 1em 1em 2em 1em;
+	font-size: 125%;
+}
+
+.p-text-past p {
+	color: grey;
+	margin: 1em 1em 2em 1em;
+	font-size: 125%;
+}
+
+/* Footer */
+#social a {
+	text-decoration: none;
+	display: inline;
+}
+
+#social li {
+	margin: auto;
+	display: inline; 
+	padding: 0 1% 0 0;
+}
+
+#social img {
+	max-height: 75px;
+	max-width: 75px;
+	margin: auto;
+	display: inline;
+}
+
+#social {
+	margin: auto;
+}
+
+#newsletter {
+	background: #ACACAC;
+	margin: 5% 0 0 0;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+#footer-head i {
+	font-size: 145%;
+	color: #FFFFFF;
+	margin: 1% 0 0 0;
+	font-weight: bold;
+}
+
+#footer-sub {
+	margin: 0;
+	font-size: 75%;
+	padding-bottom: 5%;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#newsletter input {
+	width: 40%;
+	padding: 1% 0;
+	margin-right: 5%;
+}
+
+#newsletter button {
+	width: 20%;
+	padding: 1% 0;
+}
+
+footer p {
+	padding: 20px;
+	color: #FFF;
+	background-color: #6d080c;
+	margin: 0;
+	text-align: center;
+	font-size: 120%;
+}
+/* Footer End */
+
+
+/* Services */
+/* INLINE STYLE ON HTML IN SERVICES TAB FOR MARGIN */
+#services-img {
+	background-image: url("./pics/Peter Wms placque.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#music-img {
+	background-image: url("./pics/Church interior.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#bulletin-img {
+	background-image: url("./pics/Baptismal Font - Tree of Life.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#staff-img {
+	background-image: url("./pics/Choir.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#directions-img {
+	background-image: url("./pics/Celebration Blessings.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#services {
+	min-height: 675px;
+}
+
+#services li {
+	margin-top: 5%;
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px; 
+
+}
+
+#services a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #ff0000;
+}
+
+#services .active-service {
+	font-size: 350%;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #ff0000;
+}
+/* End Services Tab */
+
+/* History */
+#history-background {
+	background: url("./pics/Church.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 12.5%;
+}
+
+.history {
+	margin: auto;
+	text-align: center;
+}
+
+#history-header {
+	padding: 5% 0 1% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1050%;
+	margin-bottom: 9%;
+	color: white;
+	text-shadow: 2px 2px 4px #ff0000;
+}
+
+#history-sub {
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#history-buttons {
+	width: 15%;
+	font-size: 225%; 
+}
+
+#history-button {
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+
+
+
+/* History End */
+
+/* Giving */
+#giving-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 12.5%;
+}
+
+.giving {
+	margin: auto;
+	text-align: center;
+}
+
+#giving-header {
+	padding: 5% 0 1% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1050%;
+	margin-bottom: 9%;
+}
+
+#giving-sub {
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#giving-buttons {
+	width: 15%;
+	font-size: 225%; 
+}
+
+#giving-button {
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+
+#actual-button {
+	width: 15%;
+	font-size: 225%;
+}
+/* Giving End */
+
+
+/* Treasure */
+#treasure-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#treasure-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 550%;
+}
+
+.treasure-boxes {
+	margin-top: 20px;
+}
+
+#treasure-boxes .treasure-boxes {
+	float: left; 
+	width: 33%;
+	text-align: center;
+	padding: 10px;
+}
+
+#treasure-boxes .treasure-boxes img{
+	min-width: 175px;
+	max-width: 175px;
+	min-height: 175px;
+	max-height: 175px;
+	margin: 5% 0 5% 0;
+}
+
+#treasure-boxes .treasure-boxes h3{
+	font-size: 225%;
+	font-weight: bold;
+	margin: 2% 0 4% 0;
+}
+
+#treasure-button-margin {
+	margin-bottom: 8%;
+}
+
+#treasure-boxes .treasure-boxes p{
+	font-size: 150%;
+	margin: 2% 0 10% 0;
+}
+/* Treasure End */
+
+
+/* Time */
+#time-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#time-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+#volunteerism {
+	margin-left: 9%;
+	display: inline-block;
+}
+
+.volunteer-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.volunteer-content p {
+	font-size: 150%;
+	padding: 0% 0% 3% 0%;
+	margin: 0;
+	float: left;
+	width: 60%;
+}
+
+#actual-v-button {
+	padding-bottom: 5%;
+	float: left;
+	width: 50%;
+	margin-left: 20%;
+}
+
+#volunteerism-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+#volunteerism-img-sec {
+	display: inline-block;
+}
+/* Time End */
+
+
+/* Talent */
+#talent-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#talent-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: right;
+	font-size: 550%;
+}
+/* Talent End */
+
+
+/* Celebration */
+#celebration-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#celebration-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+#baptisim {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+}
+
+.baptisim-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.baptisim-content p {
+	font-size: 150%;
+	padding: 0% 0% 24% 0%;
+	margin: 0;
+	float: left;
+}
+
+#actual-b-button {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#baptisim-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+#christening {
+	float: right;
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+}
+
+.christening-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.christening-content p {
+	font-size: 150%;
+	padding: 0% 0% 24% 0%;
+	margin: 0;
+}
+
+#actual-c-button {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#christening-button {
+	text-align: center;
+	font-size: 150%;
+}
+/* Celebration End */
+
+
+/* Ministries */
+.ministries-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.ministries-content p {
+	font-size: 150%;
+	padding: 0% 0% 3% 0%;
+	margin: 0;
+	float: left;
+	width: 60%;
+}
+
+#ministries-img-sec {
+	display: inline-block;
+}
+
+#ministries-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#ministries-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+#ministries {
+	margin-left: 9%;
+	display: inline-block;
+}
+
