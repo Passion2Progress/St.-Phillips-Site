@@ -19,6 +19,12 @@ p {
 	overflow: hidden;
 }
 
+.container-staff {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
 .button_1 {
 	height: 38px;
 	background: #e8491d;
@@ -94,6 +100,42 @@ header a:hover {
 }
 /* carousel end */
 
+/* mission */
+
+#mission-start {
+	padding-top: 6%;
+}
+
+.mission-header-green {
+	color: white;
+	border: 6px solid #F1F1F1;
+	background-color: #A3B95F;
+	box-shadow: 0px 0px 20px #888888;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.mission-header {
+	text-align: center;
+	font-size: 350%;
+}
+
+.mission-header-mission {
+	text-align: right;
+	font-size: 300%;
+	margin-right: 20%;
+}
+
+.mission-top-sub {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 6%;
+	font-size: 200%;
+	padding-top: 4%;
+}
+
+/* mission end*/
 
 /* boxes content */
 #boxes {
@@ -937,6 +979,19 @@ footer p {
     background-position: center center;
 }
 
+#birthday {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+	background-image: url("placeholder.png");
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .baptisim-header {
 	font-weight: bold;
 	font-size: 350%;
@@ -960,21 +1015,26 @@ footer p {
 	font-size: 150%;
 }
 
-#christening {
-	float: right;
+#confirmation {
 	border: solid 1px black;
 	margin: 2% 2% 2% 2%;
 	display: inline-block;
 	width: 45%;
+	background-image: url("placeholder.png");
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-.christening-header {
+.confirmation-header {
 	font-weight: bold;
 	font-size: 350%;
 	padding: 3% 0 0 0%;
 }
 
-.christening-content p {
+.confirmation-content p {
 	font-size: 150%;
 	padding: 0% 0% 24% 0%;
 	margin: 0;
@@ -985,10 +1045,54 @@ footer p {
 	text-align: center;
 }
 
-#christening-button {
+#confirmation-button {
 	text-align: center;
 	font-size: 150%;
 }
+
+#anniversary {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+	background-image: url("placeholder.png");
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.anniversary-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.anniversary-content p {
+	font-size: 150%;
+	padding: 0% 0% 24% 0%;
+	margin: 0;
+}
+
+#anniversary-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+.down {
+    position: fixed;
+    right: 49.2%;
+    bottom: 2%;
+    z-index: 999;
+    max-height: 50px; 
+    min-height: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    background-color: white;
+    border-radius: 1em;
+}
+
 /* Celebration End */
 
 
