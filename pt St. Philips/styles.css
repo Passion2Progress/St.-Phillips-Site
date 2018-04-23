@@ -27,7 +27,7 @@ p {
 
 .button_1 {
 	height: 38px;
-	background: #e8491d;
+	background: #737373;
 	border: 0;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -58,7 +58,7 @@ header {
 }
 
 header a {
-	color: #fff;
+	color: #5A5A5A;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -84,12 +84,12 @@ header nav {
 }
 
 header .highlight, header .current a{
-	color: #6d080c;
+	color: #FFFFFF;
 
 }
 
 header a:hover {
-	color: #d6797d;
+	color: #000000;
 }
 /* header end */
 
@@ -152,16 +152,26 @@ header a:hover {
 	width: 50%;
 }
 
+#boxes .box span{
+	color: black; 
+	font-size: 200%; 
+	font-weight: bold; 
+	margin-right: 0.1em;
+}
+
 #boxes .box img{
 	min-width: 60%;
 	min-height: 256px;
+	max-height: 256px;
+	min-width: 333px; 
+	max-width: 333px;
 	margin: 0;
 	border: 1em solid grey;
 }
 
 #boxes .box h2 {
 	font-size: 250%;
-	background:rgba(186,32,38,0.8);
+	background:rgba(202,202,202);
 	margin: 0 auto;
 	width: 60%;
 }
@@ -170,10 +180,10 @@ header a:hover {
 	width: 60%;
 	text-align: left;
 	margin: 0 auto;
-	background:rgba(186,32,38,0.8);
+	background:rgba(202,202,202);
 	border: 5% solid black;
 	padding: 2.5% 2.5%;
-	color: #FFFFFF;
+	color: rgb(130,130,130);
 	border-bottom: 1em solid grey;
 }
 
@@ -317,6 +327,54 @@ header a:hover {
 	font-size: 125%;
 }
 
+/* event end */
+
+/* Rentals */
+
+#rentals-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.rentals {
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+#rentals-header {
+	padding: 5% 0 1% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1050%;
+	margin-bottom: 9%;
+}
+
+#rentals-sub {
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#rentals-buttons {
+	width: 15%;
+	font-size: 225%; 
+}
+
+#rentals-button {
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+
+#rentals-button {
+	width: 20%;
+	font-size: 225%;
+}
+
+/* Rentals end */
+
 /* Footer */
 #social a {
 	text-decoration: none;
@@ -377,7 +435,7 @@ header a:hover {
 footer p {
 	padding: 20px;
 	color: #FFF;
-	background-color: #6d080c;
+	background-color: #737373;
 	margin: 0;
 	text-align: center;
 	font-size: 120%;
@@ -442,16 +500,49 @@ footer p {
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
-	text-shadow: 2px 2px 4px #ff0000;
+	text-shadow: 2px 2px 4px #000;
 }
 
 #services .active-service {
 	font-size: 350%;
 	font-weight: bold;
 	color: white;
-	text-shadow: 2px 2px 4px #ff0000;
+	text-shadow: 2px 2px 4px #000;
 }
 /* End Services Tab */
+
+/* Staff Services */
+
+#staff-overall-container {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#staff-img-container {
+	text-align: center; 
+	margin-top: 2%;
+}
+
+.staff-role {
+	width: 33.3%; 
+	float: left;
+}
+
+.staff-name {
+	width: 80%; 
+	border: 4px solid grey; 
+	text-align: center; 
+	margin: auto; 
+	margin-bottom: 2%;
+}
+
+.staff-img-pg {
+	border: 10px solid grey;
+}
+
+.staff-sub {
+	font-size: 150%; margin-top: 2%; text-decoration: underline;
+}
 
 /* History */
 #history-background {
@@ -692,37 +783,41 @@ footer p {
 .history-img-9{
 	width: 38%;
 	float: left;
-	max-height: 50%; 
-	max-width: 50%; 
+	max-height: 30%; 
+	max-width: 30%; 
 	display: inline-block; 
 	border: 1em solid white; 
+	text-align: center;
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
-	margin-left: 6%;
+	margin-top: 6%;
 }
 
 .history-img-10{
 	width: 40%;
+	max-height: 25%; 
+	max-width: 25%; 
 	float: right;
 	display: inline-block; 
 	border: 1em solid white; 
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 10%;
+	margin-top: 4%;
 
 }
 
 .history-img-11{
 	width: 40%;
 	float: right;
-	max-height: 50%; 
-	max-width: 50%; 
+	max-height: 25%; 
+	max-width: 25%; 
 	display: inline-block; 
 	border: 1em solid white; 
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
-	margin-right: 5%;
-	margin-top: 14%;
+	margin-right: 10%;
+	margin-top: 6%;
 }
 
 .history-img {
@@ -902,6 +997,7 @@ footer p {
 #volunteerism {
 	margin-left: 9%;
 	display: inline-block;
+	width: 50%;
 }
 
 .volunteer-header {
@@ -915,7 +1011,6 @@ footer p {
 	padding: 0% 0% 3% 0%;
 	margin: 0;
 	float: left;
-	width: 60%;
 }
 
 #actual-v-button {
@@ -931,7 +1026,12 @@ footer p {
 }
 
 #volunteerism-img-sec {
-	display: inline-block;
+	margin-top: 12%;
+	width: 40%;
+	max-height: 25%; 
+	max-width: 25%; 
+	float: right;
+	display: inline-block; 
 }
 /* Time End */
 
@@ -1099,8 +1199,8 @@ footer p {
 /* Ministries */
 .ministries-header {
 	font-weight: bold;
-	font-size: 350%;
-	padding: 3% 0 0 0%;
+	font-size: 250%;
+
 }
 
 .ministries-content p {
