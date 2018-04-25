@@ -1084,7 +1084,7 @@ footer p {
 	margin: 2% 2% 2% 2%;
 	display: inline-block;
 	width: 45%;
-	background-image: url("placeholder.png");
+	background-image: url("./pics/birthday.jpg");
 	color: white;
 	text-shadow: 2px 2px 4px #000000;
 	background-repeat: no-repeat;
@@ -1120,7 +1120,7 @@ footer p {
 	margin: 2% 2% 2% 2%;
 	display: inline-block;
 	width: 45%;
-	background-image: url("placeholder.png");
+	background-image: url("./pics/confirmation.jpg");
 	color: white;
 	text-shadow: 2px 2px 4px #000000;
 	background-repeat: no-repeat;
@@ -1155,7 +1155,7 @@ footer p {
 	margin: 2% 2% 2% 2%;
 	display: inline-block;
 	width: 45%;
-	background-image: url("placeholder.png");
+	background-image: url("./pics/wedding.jpg");
 	color: white;
 	text-shadow: 2px 2px 4px #000000;
 	background-repeat: no-repeat;
@@ -1197,11 +1197,17 @@ footer p {
 
 
 /* Ministries */
-.ministries-header {
+
+.ministries-header-main {
 	font-weight: bold;
 	font-size: 250%;
-
 }
+
+.ministries-header {
+	font-weight: bold;
+	font-size: 200%;
+}
+
 
 .ministries-content p {
 	font-size: 150%;
