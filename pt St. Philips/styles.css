@@ -185,6 +185,7 @@ header a:hover {
 	padding: 2.5% 2.5%;
 	color: rgb(130,130,130);
 	border-bottom: 1em solid grey;
+	font-weight: bold;
 }
 
 /* boxes end */
