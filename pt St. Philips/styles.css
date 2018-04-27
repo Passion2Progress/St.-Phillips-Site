@@ -545,6 +545,39 @@ footer p {
 	font-size: 150%; margin-top: 2%; text-decoration: underline;
 }
 
+.vestry-role-top {
+	width: 25%; 
+	float: left;
+}
+
+.vestry-role-bottom {
+	width: 33.3%; 
+	float: left;
+}
+
+.vestry-name {
+	width: 80%; 
+	font-size: 150%;
+	text-align: center; 
+	margin: auto; 
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+.vestry-sub {
+	font-size: 150%;
+	margin: 0;
+}
+
+.fit {
+	margin-top: 12%;
+	padding-bottom: 1%;
+}
+
+.fit2 {
+	margin-top: 8%;
+	padding-bottom: 3.5%;
+}
 /* History */
 #history-background {
 	background: url("./pics/Church.jpg");
@@ -758,6 +791,7 @@ footer p {
 	margin-top: 2%;
 	font-size: 100%;
 	width: 30%;
+	font-weight: bold;
 }
 
 .history-img-8{
@@ -775,9 +809,12 @@ footer p {
 
 .history-img-8-sub{
 	float: left; 
-	margin-right: 16%;
+	display: inline-block;
+	margin-left: 4%;
+	margin-top: 2%;
 	text-align: center;
 	font-size: 100%;
+	font-weight: bold;
 }
 
 .history-img-9{
