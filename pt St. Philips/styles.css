@@ -117,7 +117,7 @@ header a:hover {
 
 .mission-header {
 	text-align: center;
-	font-size: 350%;
+	font-size: 3em;
 }
 
 .mission-header-mission {
@@ -131,7 +131,7 @@ header a:hover {
 	margin: auto;
 	text-align: center;
 	padding-bottom: 6%;
-	font-size: 200%;
+	font-size: 1.75em;
 	padding-top: 4%;
 }
 
@@ -446,8 +446,9 @@ footer p {
 
 /* Services */
 /* INLINE STYLE ON HTML IN SERVICES TAB FOR MARGIN */
+
 #services-img {
-	background-image: url("./pics/Peter Wms placque.jpg");
+	background-image: url("./pics/Church interior.jpg");
 	background-position: center;
 	background-size: cover;
 	width: 100%;
@@ -482,7 +483,6 @@ footer p {
 }
 
 #services {
-	min-height: 675px;
 	margin-left: 12%;
 }
 
@@ -627,23 +627,22 @@ footer p {
 }
 
 .history-img-1-div {
-	padding-bottom: 1%;
+	padding-top: 1%;
+	text-align: center;
 }
 
 .history-img-1{
-	width: 40%;
-	float: left;
+	width: 30%;
 	max-height: 50%; 
 	max-width: 50%; 
 	display: inline-block; 
 	border: 1em solid white; 
-	border-radius: 15px 50px 30px 50px;
+	border-radius: 50px 50px 50px 50px;
 	box-shadow: 0px 0px 20px #888888;
-	margin-left: 5%;
 }
 
 .history-img-2{
-	width: 25%;
+	width: 30%;
 	float: right;
 	max-height: 50%; 
 	max-width: 50%; 
@@ -656,7 +655,7 @@ footer p {
 }
 
 .history-img-3{
-	width: 40%;
+	width: 30%;
 	float: right;
 	max-height: 50%; 
 	max-width: 50%; 
@@ -669,7 +668,7 @@ footer p {
 }
 
 .history-img-4{
-	width: 40%;
+	width: 30%;
 	float: right;
 	max-height: 50%; 
 	max-width: 50%; 
@@ -693,7 +692,7 @@ footer p {
 }
 
 .history-img-5{
-	width: 40%;
+	width: 30%;
 	float: left;
 	max-height: 50%; 
 	max-width: 50%; 
@@ -702,7 +701,7 @@ footer p {
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 2%;
+	margin-top: 8%;
 }
 
 .history-img-5-sub{
@@ -771,7 +770,7 @@ footer p {
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 2%;
+	margin-top: 6%;
 }
 
 .history-img-8-sub{
@@ -782,7 +781,7 @@ footer p {
 }
 
 .history-img-9{
-	width: 38%;
+	width: 30%;
 	float: left;
 	max-height: 30%; 
 	max-width: 30%; 
@@ -795,30 +794,30 @@ footer p {
 }
 
 .history-img-10{
-	width: 40%;
+	width: 30%;
 	max-height: 25%; 
 	max-width: 25%; 
 	float: right;
-	display: inline-block; 
-	border: 1em solid white; 
-	border-radius: 50px 15px 15px 30px;
-	box-shadow: 0px 0px 20px #888888;
-	margin-right: 10%;
-	margin-top: 4%;
-
-}
-
-.history-img-11{
-	width: 40%;
-	float: right;
-	max-height: 25%; 
-	max-width: 25%; 
 	display: inline-block; 
 	border: 1em solid white; 
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 10%;
 	margin-top: 6%;
+
+}
+
+.history-img-11{
+	width: 30%;
+	float: right;
+	max-height: 25%; 
+	max-width: 25%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 10%;
+	margin-top: 10%;
 }
 
 .history-img {
@@ -1192,6 +1191,36 @@ footer p {
     min-width: 50px;
     background-color: white;
     border-radius: 1em;
+}
+
+.vision {
+    position: fixed;
+    right: 2%;
+    bottom: 10%;
+    z-index: 999;
+    max-height: 40px; 
+    min-height: 40px;
+    max-width: 125px;
+    min-width: 125px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 1.75em;
+}
+
+.mission {
+    position: fixed;
+    right: 2%;
+    bottom: 20%;
+    z-index: 999;
+    max-height: 40px; 
+    min-height: 40px;
+    max-width: 125px;
+    min-width: 125px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 1.75em;
 }
 
 /* Celebration End */
