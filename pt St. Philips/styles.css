@@ -139,6 +139,13 @@ header a:hover {
 	padding-top: 4%;
 }
 
+.mission-sub-border {
+	font-weight: bold; 
+	font-size: 150%; 
+	border: 2px solid black; 
+	padding-top: 1%;
+}
+
 /* mission end*/
 
 /* boxes content */
@@ -363,18 +370,10 @@ header a:hover {
 	margin: auto;
 }
 
-#rentals-buttons {
-	width: 15%;
-	font-size: 225%; 
-}
-
 #rentals-button {
 	margin-top: 8%;
 	margin-bottom: 4%;
-}
-
-#rentals-button {
-	width: 20%;
+	width: 25%;
 	font-size: 225%;
 }
 
@@ -918,6 +917,8 @@ footer p {
 	width: 15%;
 	font-size: 225%;
 }
+
+
 /* Giving End */
 
 
