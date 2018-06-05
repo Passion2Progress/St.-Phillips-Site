@@ -1,1 +1,2 @@
-# St.-Philips-website
+# St.-Phillips-Site
+Website for St. Phillips church
