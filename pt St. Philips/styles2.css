@@ -1,0 +1,233 @@
+
+/* Giving */
+#giving-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.giving {
+	margin: auto;
+	text-align: center;
+}
+
+#giving-header {
+	padding: 5% 0 1% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1050%;
+}
+
+#giving-sub {
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#giving-button {
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+
+#actual-button {
+	width: 15%;
+	font-size: 225%;
+}
+/* Giving End */
+
+
+/* Treasure */
+#treasure-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#treasure-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 550%;
+}
+
+.treasure-boxes {
+	margin-top: 20px;
+}
+
+#treasure-boxes .treasure-boxes {
+	float: left; 
+	width: 33%;
+	text-align: center;
+	padding: 10px;
+}
+
+#treasure-boxes .treasure-boxes img{
+	min-width: 175px;
+	max-width: 175px;
+	min-height: 175px;
+	max-height: 175px;
+	margin: 5% 0 5% 0;
+}
+
+#treasure-boxes .treasure-boxes h3{
+	font-size: 225%;
+	font-weight: bold;
+	margin: 2% 0 4% 0;
+}
+
+#treasure-button-margin {
+	margin-bottom: 8%;
+}
+
+#treasure-boxes .treasure-boxes p{
+	font-size: 150%;
+	margin: 2% 0 10% 0;
+}
+/* Treasure End */
+
+
+/* Time */
+#time-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#time-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+#volunteerism {
+	margin-left: 9%;
+	display: inline-block;
+}
+
+.volunteer-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.volunteer-content p {
+	font-size: 150%;
+	padding: 0% 0% 3% 0%;
+	margin: 0;
+	float: left;
+	width: 60%;
+}
+
+#actual-v-button {
+	padding-bottom: 5%;
+	float: left;
+	width: 50%;
+	margin-left: 20%;
+}
+
+#volunteerism-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+#volunteerism-img-sec {
+	display: inline-block;
+}
+/* Time End */
+
+/* Giving Headers and Backgrounds */
+#talent-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#talent-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: right;
+	font-size: 550%;
+}
+
+#celebration-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#celebration-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+/* Giving Headers and Backgrounds End */
+
+/* Celebration */
+
+
+#baptisim {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+}
+
+.baptisim-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.baptisim-content p {
+	font-size: 150%;
+	padding: 0% 0% 24% 0%;
+	margin: 0;
+	float: left;
+}
+
+#actual-b-button {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#baptisim-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+#christening {
+	float: right;
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+}
+
+.christening-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.christening-content p {
+	font-size: 150%;
+	padding: 0% 0% 24% 0%;
+	margin: 0;
+}
+
+#actual-c-button {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#christening-button {
+	text-align: center;
+	font-size: 150%;
+}
+/* Celebration End */
+
+/* Ministries */

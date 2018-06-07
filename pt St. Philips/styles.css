@@ -1,0 +1,1446 @@
+body{
+	font: 15px/1.5 'Josefin Sans', Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*font-size: 15px;*/
+	/*line-height: 1.5;*/
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+p {
+	font-family: 'Merriweather', sans-serif;
+}
+
+/* Global */
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container-staff {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.button_1 {
+	height: 38px;
+	background: #737373;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #FFF
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.dark {
+	padding: 15px;
+	background: #35424a;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* Global End */
+
+
+/* Header */
+header {
+	background: #ACACAC;
+	color: #FFF;
+	padding-top: 5px;
+	min-height: 60px;
+}
+
+header a {
+	color: #5A5A5A;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 18px 0 18px; 
+}
+
+header #branding {
+	font-family: Old English Text MT;
+	color: #BA2026;
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header #branding span .highlight{
+	color: #BA2026;
+}
+
+header .highlight, header .current a{
+	color: #FFFFFF;
+}
+
+header a:hover {
+	color: #000000;
+}
+/* header end */
+
+
+/* carousel */
+#caro-img {
+	max-height: 675px;
+}
+/* carousel end */
+
+/* mission */
+
+#mission-start {
+	padding-top: 2%;
+}
+
+.mission-header-green {
+	color: white;
+	border: 6px solid #F1F1F1;
+	background-color: #A3B95F;
+	box-shadow: 0px 0px 20px #888888;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 40%;
+	margin: auto;
+}
+
+.mission-header {
+	text-align: center;
+	font-size: 3em;
+}
+
+.mission-header-mission {
+	text-align: right;
+	font-size: 300%;
+	margin-right: 20%;
+}
+
+.mission-top-sub {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-size: 1.75em;
+	padding-top: 4%;
+}
+
+.mission-sub-border {
+	font-weight: bold; 
+	font-size: 150%; 
+	border: 2px solid black; 
+	padding-top: 1%;
+}
+
+/* mission end*/
+
+/* boxes content */
+#boxes {
+	margin-top: 5%;
+}
+
+#boxes h2 {
+	color: #FFFFFF;
+}
+
+#boxes .box {
+	float: left; 
+	text-align: center;
+	width: 50%;
+}
+
+#boxes .box span{
+	color: #BA2026; 
+	font-size: 200%; 
+	font-weight: bold; 
+	margin-right: 0.1em;
+}
+
+#boxes .box img{
+	min-width: 60%;
+	min-height: 256px;
+	max-height: 256px;
+	min-width: 333px; 
+	max-width: 333px;
+	margin: 0;
+	border: 1em solid grey;
+}
+
+#boxes .box h2 {
+	font-size: 250%;
+	background:rgba(202,202,202);
+	margin: 0 auto;
+	width: 60%;
+}
+
+#boxes .box p {
+	width: 60%;
+	text-align: left;
+	margin: 0 auto;
+	background:rgba(202,202,202);
+	border: 5% solid black;
+	padding: 2.5% 2.5%;
+	color: black;
+	border-bottom: 1em solid grey;
+	font-weight: bold;
+}
+
+/* boxes end */
+
+/* event */
+
+#title {
+	display: inline-block;
+	margin-top: 2em;
+}
+
+.dates h1{
+	margin: 0;
+	margin-top: .1em;
+	font-weight: bold;
+	font-size: 350%;
+	color: grey;
+}
+
+.dates-past h1{
+	margin: 0;
+	margin-top: .1em;
+	font-weight: bold;
+	font-size: 350%;
+	color: white;
+}
+
+.dates-past h4{
+	font-style: italic;
+	margin: 0;
+	font-size: 150%;
+	color: white;
+}
+
+.dates-past h4{
+	font-style: italic;
+	margin: 0;
+	font-size: 150%;
+	color: white;
+}
+
+.dates h3{
+	margin: 0;
+	color: grey;
+}
+
+.dates-past h3{
+	margin: 0;
+	color: white;
+}
+
+.coll {
+	float: left;
+	margin: 0;
+}
+
+.coll-img {
+	margin-top: .3em;
+	margin-left: 12em;
+}
+
+.coll-img-past {
+	margin-top: .3em;
+	margin-left: 12em;
+}
+
+.coll-img img {
+	margin-left: 1em;
+	margin-right: .5em;
+	max-height: 125px;
+	max-width: 125px;
+	min-height: 125px;
+	min-width: 125px;
+	border: 6px solid grey;
+}
+
+.coll-img-past img {
+	margin-left: 1em;
+	margin-right: .5em;
+	max-height: 125px;
+	max-width: 125px;
+	min-height: 125px;
+	min-width: 125px;
+	border: 6px solid white;
+}
+
+.coll-cam {
+	margin-top: 2.8em;
+}
+
+.coll-cam-past {
+	margin-top: 2.8em;
+}
+
+.coll-cam img {
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	min-width: 50px;
+	margin: 0;
+	border: 2px solid grey;
+	border-radius: 1em;
+	padding: 1em 1em 1em 1em;
+}
+
+.coll-cam-past img {
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	min-width: 50px;
+	margin: 0;
+	border: 2px solid white;
+	border-radius: 1em;
+	padding: 1em 1em 1em 1em;
+}
+
+.p-text {
+	margin-top: 1em;
+	margin-bottom: 4em;
+	border: 2px solid grey;
+	background-color: darkgrey;
+}
+
+.p-text-past {
+	margin-top: 1em;
+	margin-bottom: 4em;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.p-text p {
+	color: white;
+	margin: 1em 1em 2em 1em;
+	font-size: 125%;
+}
+
+.p-text-past p {
+	color: grey;
+	margin: 1em 1em 2em 1em;
+	font-size: 125%;
+}
+
+/* event end */
+
+/* Rentals */
+
+#rentals-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.rentals {
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+#rentals-header {
+	padding: 5% 0 1% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1050%;
+	margin-bottom: 9%;
+}
+
+#rentals-sub {
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#rentals-button {
+	margin-top: 8%;
+	margin-bottom: 4%;
+	width: 25%;
+	font-size: 225%;
+}
+
+/* Rentals end */
+
+/* Footer */
+#social a {
+	text-decoration: none;
+	display: inline;
+}
+
+#social li {
+	margin: auto;
+	display: inline; 
+	padding: 0 1% 0 0;
+}
+
+#social img {
+	max-height: 75px;
+	max-width: 75px;
+	margin: auto;
+	display: inline;
+}
+
+#social {
+	margin: auto;
+}
+
+#newsletter {
+	background: #ACACAC;
+	margin: 5% 0 0 0;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+#footer-head i {
+	font-size: 145%;
+	color: #FFFFFF;
+	margin: 1% 0 0 0;
+	font-weight: bold;
+}
+
+#footer-sub {
+	margin: 0;
+	font-size: 75%;
+	padding-bottom: 5%;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#newsletter input {
+	width: 40%;
+	padding: 1% 0;
+	margin-right: 5%;
+}
+
+#newsletter button {
+	width: 20%;
+	padding: 1% 0;
+}
+
+footer p {
+	padding: 20px;
+	color: #FFF;
+	background-color: #737373;
+	margin: 0;
+	text-align: center;
+	font-size: 120%;
+}
+/* Footer End */
+
+
+/* Services */
+/* INLINE STYLE ON HTML IN SERVICES TAB FOR MARGIN */
+
+#services-img {
+	background-image: url("./pics/Church interior.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#music-img {
+	background-image: url("./pics/Choir.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#bulletin-img {
+	background-image: url("./pics/Baptismal Font - Tree of Life.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#staff-img {
+	background-image: url("./pics/Altar1.png");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#directions-img {
+	background-image: url("./pics/Celebration Blessings.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#services {
+	margin-left: 12%;
+}
+
+#services li {
+	margin-top: 5%;
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px; 
+
+}
+
+#services a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+}
+
+#services .active-service {
+	font-size: 350%;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+}
+/* End Services Tab */
+
+/* Staff Services */
+
+#cas {
+	padding-top: 1%;
+	padding-bottom: .5%;
+}
+
+#staff-overall-container {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#staff-img-container {
+	text-align: center; 
+	margin-top: 2%;
+}
+
+.staff-role {
+	width: 33.3%; 
+	float: left;
+}
+
+.staff-name {
+	width: 90%; 
+	border: .15vw solid grey;
+	background-color: grey;
+	border: .15vw solid grey;
+	text-align: center; 
+	margin: auto; 
+	margin-bottom: 2%;
+	color: white;
+}
+
+.staff-img-pg {
+	border: .35vw solid grey;
+	border-radius: 4vh 2vw;
+	transition: all .3s ease;
+}
+
+.staff-img-pg:hover {
+	transition: all .3s ease;
+	transform: scale(1.1);
+}
+
+.staff-sub {
+	font-size: 150%; margin-top: 2%;
+}
+
+.vestry-role-top {
+	/*width: 25%; */
+	/*float: left;*/
+	margin-top: 0;
+}
+
+.vestry-role-bottom {
+	width: 33.3%; 
+	float: left;
+}
+
+.vestry-name {
+	width: 80%; 
+	font-size: 150%;
+	text-align: center; 
+	margin: auto; 
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+.vestry-sub {
+	font-size: 150%;
+	margin: 0;
+}
+
+.fit {
+/*	margin-top: 12%;*/
+	padding-bottom: 1%;
+}
+
+.fit2 {
+	margin-top: 8%;
+	padding-bottom: 3.5%;
+}
+/* staff end */
+
+/* wte */
+.wte-head {
+	margin-top: 2%;
+}
+/*wte end */
+
+/* garden */
+.garden-head {
+	margin-top: 2%;
+}
+/* garden end */
+
+/* about universal */
+.about-sub {
+	margin-bottom: 2%;
+}
+/* about universal end */
+
+
+/* History */
+#history-background {
+	background: url("./pics/Church.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 12.5%;
+}
+
+.history {
+	margin: auto;
+	text-align: center;
+}
+
+#history-start {
+	padding-top: 2%;
+}
+
+.history-header-green {
+	color: white;
+	border: 6px solid #F1F1F1;
+	background-color: #A3B95F;
+	box-shadow: 0px 0px 20px #888888;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.history-header {
+	text-align: center;
+	font-size: 300%;
+}
+
+.history-header-mission {
+	text-align: right;
+	font-size: 300%;
+	margin-right: 20%;
+}
+
+.history-top-sub {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 2%;
+	font-size: 150%;
+	padding-top: 2%;
+}
+
+.history-sub-right {
+	width: 50%;
+	margin: auto;
+	float: right;
+	font-size: 150%;
+	padding-top: 2%;
+}
+
+.history-sub-left {
+	width: 50%;
+	margin: auto;
+	float: left;
+	font-size: 150%;
+	padding-top: 2%;
+}
+
+.history-altar-sub {
+	width: 46%;
+	margin-top: 2%;
+}
+
+.history-logo-sub {
+	width: 55%;
+}
+
+.hist-letter {
+	border: 1px solid black;
+	padding: 6px 6px 0px 6px;
+}
+
+#history-mission {
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.history-img-1-div {
+	padding-top: 1%;
+	text-align: center;
+}
+
+.history-img-1{
+	width: 30%;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: 0px 0px 20px #888888;
+}
+
+.history-img-2{
+	width: 30%;
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 20%;
+}
+
+.history-img-3{
+	width: 30%;
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 46%;
+}
+
+.history-img-4{
+	width: 30%;
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 26%;
+}
+
+.history-img-4-sub{
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	margin-right: 15%;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 100%;
+}
+
+.history-img-5{
+	width: 30%;
+	float: left;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 8%;
+}
+
+.history-img-5-sub{
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	margin-right: 16%;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 100%;
+}
+
+.history-img-6{
+	width: 30%;
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+
+.history-img-6-sub{
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	margin-right: 9%;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 100%;
+}
+
+.history-img-7{
+	width: 30%;
+	float: right;
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+
+.history-img-7-sub{
+	float: right;
+	display: inline-block; 
+	margin-right: 5%;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 100%;
+	width: 30%;
+	font-weight: bold;
+}
+
+.history-img-8{
+	width: 30%;
+	float: left;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 6%;
+}
+
+.history-img-8-sub{
+	float: left; 
+	display: inline-block;
+	margin-left: 4%;
+	margin-top: 2%;
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.history-img-9{
+	width: 30%;
+	float: left;
+	max-height: 30%; 
+	max-width: 30%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	text-align: center;
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-top: 6%;
+}
+
+.history-img-10{
+	width: 30%;
+	max-height: 25%; 
+	max-width: 25%; 
+	float: right;
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 10%;
+	margin-top: 6%;
+
+}
+
+.history-img-11{
+	width: 30%;
+	float: right;
+	max-height: 25%; 
+	max-width: 25%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+
+.history-img {
+	width: 50%;
+	float: right;
+}
+
+.last-history {
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+
+
+
+/* History End */
+
+/* Giving */
+#giving-background {
+	background: url("giving-header.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 12.5%;
+}
+
+.giving {
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+#giving-header {
+	padding: 5% 0 1% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1050%;
+	margin-bottom: 9%;
+}
+
+#giving-sub {
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#giving-buttons {
+	width: 15%;
+	font-size: 225%; 
+}
+
+#giving-button {
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+
+#actual-button {
+	width: 15%;
+	font-size: 225%;
+}
+
+
+/* Giving End */
+
+
+/* Treasure */
+
+#circle-1 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin: auto;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	background-image: url("monatary.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 4px solid gray;
+}
+
+#circle-2 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin: auto;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	background-image: url("donation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 4px solid gray;
+}
+
+#circle-3 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin: auto;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	background-image: url("tree-of-life.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 4px solid gray;
+}
+
+#treasure-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#treasure-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 550%;
+}
+
+.treasure-names {
+	padding-top: 4%;
+}
+
+.treasure-boxes {
+	margin-top: 20px;
+}
+
+#treasure-boxes .treasure-boxes {
+	float: left; 
+	width: 33%;
+	text-align: center;
+	padding: 10px;
+}
+
+#treasure-boxes .treasure-boxes img{
+	min-width: 175px;
+	max-width: 175px;
+	min-height: 175px;
+	max-height: 175px;
+	margin: 5% 0 5% 0;
+}
+
+#treasure-boxes .treasure-boxes h3{
+	font-size: 225%;
+	font-weight: bold;
+	margin: 2% 0 4% 0;
+}
+
+#treasure-button-margin {
+	margin-bottom: 8%;
+}
+
+#treasure-boxes .treasure-boxes p{
+	font-size: 150%;
+	margin: 2% 0 10% 0;
+}
+/* Treasure End */
+
+
+/* Time */
+#time-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#time-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+#volunteerism {
+	margin-left: 9%;
+	display: inline-block;
+	width: 50%;
+}
+
+.volunteer-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.volunteer-content p {
+	font-size: 150%;
+	padding: 0% 0% 3% 0%;
+	margin: 0;
+	float: left;
+}
+
+#actual-v-button {
+	padding-bottom: 5%;
+	float: left;
+	width: 50%;
+	margin-left: 20%;
+}
+
+#volunteerism-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+#volunteerism-img-sec {
+	margin-top: 12%;
+	width: 40%;
+	max-height: 25%; 
+	max-width: 25%; 
+	float: right;
+	display: inline-block; 
+}
+/* Time End */
+
+
+/* Talent */
+#talent-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#talent-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: right;
+	font-size: 550%;
+}
+/* Talent End */
+
+/* Stewardship */
+
+#steward-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#steward-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: center;
+	font-size: 550%;
+}
+
+/* Stewardship end */
+
+/* Celebration */
+#celebration-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#celebration-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+#baptisim {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+	background-image: url("bap.jpg");
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 75vh; 
+    min-width: 45vw;
+    max-height: 75vh; 
+    max-width: 45vw;
+}
+
+#birthday {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+	background-image: url("./pics/birthday.jpg");
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh; 
+    min-width: 45vw;
+    max-height: 75vh; 
+    max-width: 45vw;
+}
+
+.baptisim-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.baptisim-content p {
+	font-size: 150%;
+
+	margin: 0;
+	float: left;
+}
+
+#actual-b-button {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#baptisim-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+#confirmation {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+	background-image: url("./pics/confirmation.jpg");
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 75vh; 
+    min-width: 45vw;
+    max-height: 75vh; 
+    max-width: 45vw;
+}
+
+.confirmation-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.confirmation-content p {
+	font-size: 150%;
+	margin: 0;
+}
+
+#actual-c-button {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#confirmation-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+#anniversary {
+	border: solid 1px black;
+	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	width: 45%;
+	background-image: url("./pics/wedding.jpg");
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 75vh; 
+    min-width: 45vw;
+    max-height: 75vh; 
+    max-width: 45vw;
+}
+
+.anniversary-header {
+	font-weight: bold;
+	font-size: 350%;
+	padding: 3% 0 0 0%;
+}
+
+.anniversary-content p {
+	font-size: 150%;
+
+	margin: 0;
+}
+
+#anniversary-button {
+	text-align: center;
+	font-size: 150%;
+}
+
+.down {
+    position: fixed;
+    right: 49.2%;
+    bottom: 2%;
+    z-index: 999;
+    max-height: 50px; 
+    min-height: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.vision {
+    position: fixed;
+    right: 2%;
+    bottom: 10%;
+    z-index: 999;
+    max-height: 40px; 
+    min-height: 40px;
+    max-width: 125px;
+    min-width: 125px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 1.75em;
+}
+
+.mission {
+    position: fixed;
+    right: 2%;
+    bottom: 20%;
+    z-index: 999;
+    max-height: 40px; 
+    min-height: 40px;
+    max-width: 125px;
+    min-width: 125px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 1.75em;
+}
+
+/* Celebration End */
+
+
+/* Ministries */
+
+.ministries-header-main {
+	font-weight: bold;
+	font-size: 250%;
+}
+
+.ministries-header {
+	font-weight: bold;
+	font-size: 200%;
+}
+
+
+.ministries-content p {
+	font-size: 150%;
+	padding: 0% 0% 3% 0%;
+	margin: 0;
+	float: left;
+	width: 60%;
+}
+
+#ministries-img-sec {
+	display: inline-block;
+}
+
+#ministries-background {
+	background: url("placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#ministries-header {
+	padding: 3% 0 2% 0;
+	font-weight: 400;
+	text-align: left;
+	font-size: 550%;
+}
+
+#ministries {
+	margin-left: 9%;
+	display: inline-block;
+}
+
+.min-pic {
+	max-height: 30vh; 
+	min-height: 30vh; 
+	max-width: 26vw; 
+	min-width: 26vw;
+	display: inline-block; 
+	float: right; 
+
+}
+
+/* Modal */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-1 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

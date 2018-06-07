@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>St. Philips</title>
+<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+<!-- CSS from scratch -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Merriweather" rel="stylesheet">
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Navigation Start -->
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">St.</span>  Philips Church</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><a href="#">About</a></li>
+						<li class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="about.html">INFO</a>
+							<a class="dropdown-item" href="testimonies.html">TESTIMONIES</a>
+    						<a class="dropdown-item" href="events.html">EVENTS</a>
+    						<a class="dropdown-item" href="rentals.html">RENTALS</a>
+  						</li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="giving.html">Giving</a></li>
+					<li><a href="ministries.html">Ministries</a></li>
+					<li class="current"><a href="celebration.html">Celebration</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- Navigation End -->
+
+<!-- Celebration -->
+<div id="celebration-background">
+<div class="jumbotron-fluid giving">
+  <div class="container">
+    <h1 id="celebration-header" class="display-4">CELEBRATION</h1>
+  </div>
+</div>
+</div>
+
+<section id="baptisim">
+	<div class="container">
+		<h2 class="baptisim-header">BAPTISM</h2>
+			<article class="baptisim-content">
+				<p>Have a baptism coming up? <br> <br>
+					Baptism is the sacrament by which a person is joined to Christ and becomes a member of the Church. The Catechism of the Episcopal Book of Common Prayer elaborates that,
+				“Holy Baptism is the sacrament by which God adopts us as his children and makes us members of Christ’s Body, the Church, and inheritors of the kingdom of God.” The sacraments of the Episcopal Church baptizes...</p>
+					<button onclick="seemore()" id="myBtn" style="margin: 0;">see more</button>
+
+					<div id="myModal" class="modal">
+					  <!-- Modal content -->
+					  <div class="modal-content">
+					    <span onclick="close1()" class="close">&times;</span>
+					    <p>We
+
+
+					    	The sacraments of the Episcopal Church baptizes both adults who have grown in their faith in Christ and
+						children whose guardians present them for this celebration. Through the rite of Baptism, there begins
+						an eternal bond between the person and God. Thus, once Baptized within any denomination, the
+						Episcopalian Church does not require a person to be re-baptized. And, we welcome exploring with any
+						baptized person membership in the Episcopal Church.
+						If you are interested in this sacrament, please e-mail us at stphilipschurch.org or 212-862-4940.</p>
+					  </div>
+					</div>
+			</article>
+
+			<div id="actual-b-button">
+				<button id="volunteerism-button" type="button" class="btn btn-primary btn-lg volunteerism-button">APPLY</button>
+			</div>
+	</div>
+</section>
+
+<section id="confirmation">
+	<div class="container">
+		<h2 class="confirmation-header">CONFIRMATION</h2>
+			<article class="confirmation-content">
+				<p>Have a confirmation coming up? <br> <br>
+					Confirmation and reaffirmation are rites that area meant to help one renew commitments made during baptisms or made on their behalf by parents or others at baptism in the Baptismal Covenant. Confirmation is a declaration of faith and commitment to the Christian life made by someone who has already been baptized but who has now taken the decision ... </p>
+
+					<button id="myBtn-1" onclick="seemore2()">see more</button>
+
+					<div id="myModal-1" class="modal-1">
+					  <div class="modal-content-1">
+					    <span onclick="close2()" class="close">&times;</span>
+					    <p> for her or himself to follow the way of Jesus and will take the vows of the Baptismal Covenant her or himself. Reaffirmation is for those who have been baptized and confirmed but who, for any number of reasons, want to intentionally renew their commitment to living a Christian life through study and renewal of the Baptismal Covenant vows once again. Both confirmation and reaffirmation involve strengthening by the Holy Spirit through prayer and the laying on of hands by a Bishop.
+					    <br>
+					   	<br>
+					    Reception is for those from other denominations who want to formally be received as members into the Episcopal Church. Anyone from another Christian church, if they have been baptized with water and in the name of the Trinity, may become a baptized member of the Episcopal Church by having their baptism duly recorded in this church. Moreover, persons baptized in other traditions may also be received by laying on of hands by a bishop, if such persons have also already made an adult affirmation of faith in their baptized traditions. If they have not, then those persons may be confirmed in this church.</p>
+					  </div>
+					</div>
+			</article>
+
+			<div id="actual-c-button">
+				<button id="confirmation-button" type="button" class="btn btn-primary btn-lg confirmation-button">APPLY</button>
+			</div>
+
+	</div>
+</section>
+
+<section id="birthday">
+	<div class="container">
+		<h2 class="baptisim-header" style="font-size: ">A SPECIAL DAY</h2>
+			<article class="baptisim-content">
+				<p>Have a birthday or anniversary coming up? <br> <br>
+					St. Philip’s hosts services for parishioners as well as anyone who finds our church a place of spiritual and
+					religious significance. Based on the requested services, the rites from our Book of Common Prayer is
+					used.
+					If St. Philip’s can be of assistance to you for these events in your life, please contact the Pastor to review
+					our policies and procedures.
+				</p>
+			</article>
+
+			<div id="actual-b-button">
+				<button id="volunteerism-button" type="button" class="btn btn-primary btn-lg volunteerism-button">APPLY</button>
+			</div>
+	</div>
+</section>
+
+<section id="anniversary">
+	<div class="container">
+		<h2 class="anniversary-header">WEDDINGS</h2>
+			<article class="anniversary-content">
+				<p>Have a wedding coming up? <br> <br>
+					St. Philip’s hosts services for parishioners as well as anyone who finds our church a place of spiritual and
+					religious significance. Based on the requested services, the rites from our Book of Common Prayer is
+					used.
+					If St. Philip’s can be of assistance to you for these events in your life, please contact the Pastor to review
+					our policies and procedures.
+				</p>
+			</article>
+
+			<div id="actual-c-button">
+				<button id="anniversary-button" type="button" class="btn btn-primary btn-lg anniversary-button">APPLY</button>
+			</div>
+
+	</div>
+</section>
+
+<!-- Footer -->
+		<section style="margin-top: 0;" id="newsletter">
+			<div class="container">
+				<ul id="social">
+					<li><a href="#"><img src="insta.svg"></a></li>
+					<li><a href="#"><img src="facebook.svg"></a></li>
+				</ul>
+				<h1 id="footer-head"><i>JOIN US THIS LITURGICAL YEAR</i><br> 
+					<span id="footer-sub">WE WILL SEND YOU UPCOMING EVENTS THROUGH EMAIL</span>
+				</h1>
+				<form action="process.php">
+					<input type="email" placeholder="Enter email" name="">
+					<button type="submit" class="button_1">Subscribe</button>
+				</form>
+			</div>
+		</section>
+<!-- Footer End -->
+
+<a href="#birthday"><img class="down" src="arrow.png"></a>
+
+	<footer>
+		<p>2017 &copy; St. Philip's Church. All rights reserved.</p>
+	</footer>		
+
+<script type="text/javascript">
+var modal = document.getElementById('myModal');
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+
+
+
+// When the user clicks on the button, open the modal 
+var modal2 = document.getElementById('myModal-1');
+// Get the button that opens the modal
+var btn2 = document.getElementById("myBtn-1");
+// Get the <span> element that closes the modal
+
+
+
+
+// When the user clicks on the button, open the modal 
+// btn.onclick = function() {
+//     if (event.target == btn) {
+//         modal.style.display = "block";
+//     }
+//     if (event.target == btn1) {
+//         modal1.style.display = "block";
+//     }
+// }
+
+function seemore() {
+	modal.style.display = "block";
+}
+
+function seemore2() {
+	modal2.style.display = "block";
+}
+
+
+
+// When the user clicks on <span> (x), close the modal
+function close1() {
+        modal.style.display = "none";
+    }
+
+function close2() {
+        modal2.style.display = "none";
+    }
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+
+
+
+</script>
+
+
+</body>
+</html>
