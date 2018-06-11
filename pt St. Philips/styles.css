@@ -1380,15 +1380,26 @@ footer p {
 	display: inline-block;
 }
 
-.min-pic {
-	max-height: 30vh; 
+.min-pic-warr {
+	max-height: 40vh; 
 	min-height: 30vh; 
 	max-width: 26vw; 
 	min-width: 26vw;
 	display: inline-block; 
 	float: right; 
-
+	margin-top: .4vw;
 }
+
+.min-pic-ecc {
+	max-height: 40vh; 
+	min-height: 30vh; 
+	max-width: 26vw; 
+	min-width: 26vw;
+	display: inline-block; 
+	float: right; 
+	margin-bottom: 5.5vw;
+}
+
 
 /* Modal */
 
@@ -1407,11 +1418,14 @@ footer p {
 
 /* Modal Content/Box */
 .modal-content {
+	font-size: 150%;
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    color: black;
+    text-decoration: none;
 }
 
 .modal-1 {
@@ -1429,6 +1443,7 @@ footer p {
 
 /* Modal Content/Box */
 .modal-content-1 {
+	font-size: 150%;
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
