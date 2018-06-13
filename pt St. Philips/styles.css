@@ -1410,24 +1410,42 @@ footer p {
 }
 
 .min-pic-warr {
-	max-height: 40vh; 
-	min-height: 30vh; 
-	max-width: 26vw; 
-	min-width: 26vw;
-	display: inline-block; 
+	display: block; 
 	float: right; 
-	margin-top: .4vw;
 }
 
 .min-pic-ecc {
+	display: inline-block; 
+	float: right;
+}
+
+.min-pic-cand {
 	max-height: 40vh; 
-	min-height: 30vh; 
+	min-height: 40vh; 
 	max-width: 26vw; 
 	min-width: 26vw;
 	display: inline-block; 
 	float: right; 
 	margin-bottom: 5.5vw;
+	position: relative;
 }
+
+.min-pic-aco {
+	display: inline-block; 
+	float: right; 
+}
+
+.min-pic-sun {
+	display: inline-block; 
+	float: right; 
+}
+
+
+.min-pic-wom {
+	display: inline-block; 
+	float: right; 
+}
+
 
 
 /* Modal */
@@ -1545,4 +1563,10 @@ footer p {
 	right: 8vw; 
 	display: inline-block;
 	top: 4vw;
+}
+
+.pic-border {
+	border: 1em solid white; 
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: 0px 0px 20px #888888;
 }
