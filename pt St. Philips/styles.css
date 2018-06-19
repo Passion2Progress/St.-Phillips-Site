@@ -1267,6 +1267,7 @@ footer p {
 	margin: 2% 2% 2% 2%;
 	display: inline-block;
 	width: 45%;
+	background-color: rgba(255,255,255,0.7);
 	background-image: url("./pics/confirmation.jpg");
 	color: white;
 	text-shadow: 2px 2px 4px #000000;
