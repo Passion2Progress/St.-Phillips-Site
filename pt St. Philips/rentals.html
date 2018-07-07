@@ -85,12 +85,20 @@
 		<img src="./pics/garden.jpg" class="pic-border" style="margin: auto; display: block;">
 		<div style="text-align: center;">
 		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Space License</button></a>
-		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large">Member License</button></a>
+		    <button onclick="seemore()" id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Member License</button>
   		</div>
 	</div>
 </section>
 </div>
 </div>
+
+<div id="myModal" class="modal">
+					  <!-- Modal content -->
+					  <div class="modal-content">
+					    <span onclick="close1()" class="close">&times;</span>
+					    <p>If you are interested in this space, please e-mail us at stphilipschurch.org or call our Parish Administrator, 212-862-4940.</p>
+					  </div>
+					</div>
 <!-- Services End -->
 
 <!-- About End -->
@@ -150,7 +158,7 @@
 		</p>
 		<div style="text-align: center;">
 		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Space License</button></a>
-		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large">Member License</button></a>
+		    <button onclick="seemore()" id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Member License</button>
   		</div>
 	</div>
 </section>
@@ -226,7 +234,7 @@
 
 		<div style="text-align: center;">
 		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Space License</button></a>
-		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large">Member License</button></a>
+		    <button onclick="seemore()" id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Member License</button>
   		</div>
 	</div>
 </section>
@@ -307,7 +315,7 @@
 		<img src="./pics/sanct.jpg" class="pic-border" style="width: 50%; margin: auto; text-align: center; display: block;">
 		<div style="text-align: center;">
 		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Space License</button></a>
-		    <a href="agreement/Space License.pdf" download><button id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large">Member License</button></a>
+		    <button onclick="seemore()" id="rentals-button" type="button" class="btn btn-primary btn-lg actual-button-large" style="margin-right: 4%;">Member License</button>
   		</div>
 	</div>
 </section>
@@ -543,6 +551,23 @@ window.onclick = function(event) {
         info6.style.display = "none";
     }
 }
+
+var modal = document.getElementById('myModal');
+
+function seemore() {
+	modal.style.display = "block";
+}
+
+function close1() {
+        modal.style.display = "none";
+    }
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 </script>
 
 </body>
