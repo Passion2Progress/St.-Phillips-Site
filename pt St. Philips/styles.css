@@ -1751,3 +1751,15 @@ footer p {
         
     }
 }
+.history-img-12 {
+	width: 30%;
+	float: left;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-right: 5%;
+	margin-top: 6%;
+}
