@@ -1135,6 +1135,7 @@ footer p {
 	padding: 0% 0% 3% 0%;
 	margin: 0;
 	float: left;
+    width: 50%;
 }
 
 #actual-v-button {
@@ -1591,3 +1592,162 @@ footer p {
 	margin: .5%;
 }
 
+.rental-place {
+    width: 60%;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav a {
+    padding-left: 130px;
+    font-size: 200%;
+    display: inline-block;
+    }
+    
+    #logo-main {
+    width: 100%;
+    height: 10%;
+    }
+    
+    .mission-header-green {
+    width: 50%;
+    }
+    
+    #newsletter {
+    padding-left: 0;
+    }
+    
+    #map {
+	width: 100%; 
+    margin: auto;
+    float: none;
+    position: inherit;
+    }
+    
+    #boxes .box img{
+	min-width: 20%;
+	min-height: 200px;
+	max-height: 200px;
+	min-width: 200px; 
+	max-width: 200px;
+	margin: 0;
+	border: 1em solid grey;
+    }
+    
+    #services a {
+        font-size: 200%;
+        float: left;
+        padding-left: 4rem;
+        margin: auto;
+    }
+    
+    #services .active-service {
+	font-size: 150%;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+    }
+    
+    .staff-name {
+	font-size: 120%;
+    }
+    
+    .staff-sub {
+        font-size: 110%;
+    }
+    
+    #actual-button {
+        width: inherit;
+    }
+    
+    #rentals-button {
+        width: inherit;
+    }
+    
+    .pic-border {
+        border: .3em solid white;
+    }
+}
+
+@media (max-width: 426px) {
+    
+    nav a {
+    padding-left: 70px;
+    font-size: 200%;
+    display: inline-block;
+    }
+    
+    .mission-header-green {
+    width: inherit;
+    }
+    
+    #services a {
+        padding-left: inherit;
+    }
+    
+    .staff-role {
+        display: block;
+        word-break:break-all;
+        float: left;
+    }
+    
+    #treasure-boxes .treasure-boxes {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .volunteer-content p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .min-pic-warr {
+        float: none;
+        width: 300px;
+        height: 200px;
+    }
+    
+    #actual-v-button {
+        margin: 0;
+        text-align: center;
+        width: inherit;
+    }
+    
+    .ministries-content p {
+        width: inherit;
+    }
+    
+    .min-pic-ecc {
+        width: 300px;
+    }
+    
+    .min-pic-wom {
+        width: 300px;
+    }
+    
+     .min-pic-sun {
+        height: 200px;
+        width: 150px;
+    }
+    
+    .rental-place {
+        width: inherit;
+    }
+    
+    .staff-role {
+        width: 100%;
+    }
+    
+    #newsletter button {
+        width: inherit;
+    }
+    
+    #history img {
+        width: inherit;
+        
+    }
+}
