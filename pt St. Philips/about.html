@@ -368,6 +368,24 @@
 <div  id="staff-overall-container">
 <h2 id="cas" class="mission-header mission-header-green">Clergy and Staff</h2>
 
+    <div id="staff-img-container" class="container">
+		<div class="staff-role-lee">
+			<h2 class="staff-name">Rev. Canon Terence Alexander Lee</h2>
+			<img class="staff-img-pg" src="./staff/new1.png" 
+			onclick="desc0()" style="cursor: pointer;">
+			<h2 class="staff-sub">Associate Priest</h2>
+		</div>
+    </div>
+    
+                    <div id="myModal0" class="modal">
+					  <!-- Modal content -->
+					  <div class="modal-content">
+					    <span onclick="close0()" class="close">&times;</span>
+					    <p>The Reverend Canon Terence Alexander Lee, Rector-Elect of the historic St. Philip’s Episcopal Church most recently served as Rector of St Gabriel’s Episcopal Church in Hollis, New York, in the Diocese of Long Island  While serving at St. Gabriel’s, Fr. Lee was appointed by the bishop, Priest-in-Charge of St. John’s Episcopal Church, Springfield Gardens, NY.  Fr. Lee believes in the wider mission of the church and also serves as a Canon in the Cathedral of the Anglican Diocese of Wiawso, Ghana, West Africa where he has had the opportunity to serve and preach.  Prior to New York, he served as Canon Pastor of the Cathedral of St. John, Albuquerque, New Mexico and Rector of St. Paul’s Episcopal Church, Bennettsville, South Carolina.  He has a love and a passion for liturgy worship, and serving God’s people.</p>
+					  </div>
+					</div>
+    
+    
 	<div id="staff-img-container" class="container">
 		<div class="staff-role">
 			<h2 class="staff-name">Rev. Dr. Chloe Breyer</h2>
@@ -628,6 +646,8 @@
 
 
 // When the user clicks on the button, open the modal 
+var info0 = document.getElementById('myModal0');
+    
 var info = document.getElementById('myModal');
 
 var info2 = document.getElementById('myModal2');
@@ -652,6 +672,10 @@ var info6 = document.getElementById('myModal6');
 //     }
 // }
 
+function desc0() {
+	info0.style.display = "block";
+}    
+    
 function desc() {
 	info.style.display = "block";
 }
@@ -680,6 +704,10 @@ function desc6() {
 
 
 // When the user clicks on <span> (x), close the modal
+function close0() {
+        info.style.display = "none";
+    }
+    
 function close1() {
         info.style.display = "none";
     }
@@ -707,6 +735,9 @@ function close6() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
+    if (event.target == info0) {
+        info0.style.display = "none";
+    }
     if (event.target == info) {
         info.style.display = "none";
     }
