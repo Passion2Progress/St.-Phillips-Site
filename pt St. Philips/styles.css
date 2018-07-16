@@ -473,7 +473,7 @@ footer p {
 /* INLINE STYLE ON HTML IN SERVICES TAB FOR MARGIN */
 
 #services-img {
-	background-image: url("./pics/Church interior.jpg");
+	background-image: url("./pics/Church interior.JPG");
 	background-position: center;
 	background-size: cover;
 	width: 100%;
@@ -1048,7 +1048,7 @@ footer p {
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
 	border-radius: 100px;
-	background-image: url("tree-of-life.png");
+	background-image: url("tree-of-life.PNG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
