@@ -152,7 +152,7 @@ header a:hover {
 	width: 100%;
 	margin: auto;
 	text-align: center;
-	font-size: 1.75em;
+	font-size: 15px;
 	padding-top: 4%;
 }
 
@@ -1102,7 +1102,7 @@ footer p {
 }
 
 #treasure-boxes .treasure-boxes p{
-	font-size: 150%;
+	font-size: 15px;
 	margin: 2% 0 10% 0;
 }
 /* Treasure End */
@@ -1135,7 +1135,7 @@ footer p {
 }
 
 .volunteer-content p {
-	font-size: 150%;
+	font-size: 15px;
 	padding: 0% 0% 3% 0%;
 	margin: 0;
 	float: left;
@@ -1401,7 +1401,7 @@ footer p {
 
 
 .ministries-content p {
-	font-size: 150%;
+	font-size: 15px;
 	padding: 0% 0% 3% 0%;
 	margin: 0;
 	float: left;
@@ -1623,6 +1623,11 @@ footer p {
     position: inherit;
     }
     
+    .volunteer-header {
+    font-size: 350%;
+    text-align: center;
+    }
+    
     #logo-main {
     width: 16em;
     height: auto;
@@ -1631,6 +1636,16 @@ footer p {
     header a {
     font-size: 1em;
     }
+    
+    .volunteer-content p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #actual-button {
+        font-size: 125%;
+    }
+    
 }
 
 @media (max-width: 769px) {
@@ -1700,6 +1715,17 @@ footer p {
     #giving-header {
         font-size: 800%;    
     }
+    
+    .volunteer-content p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .volunteer-header {
+        font-size: 250%;
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 426px) {
@@ -1784,6 +1810,11 @@ footer p {
         font-size: 500%;    
     }
     
+    .volunteer-header {
+        font-size: 250%;
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 320px) {
@@ -1815,6 +1846,7 @@ footer p {
     
     .volunteer-header {
         font-size: 200%;    
+        text-align: center;
     }
     
     #actual-button {
@@ -1853,5 +1885,7 @@ footer p {
     width: 100%;
     padding-left: 50%:
 }
+
+
 
 
