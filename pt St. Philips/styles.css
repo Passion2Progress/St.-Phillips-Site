@@ -707,7 +707,7 @@ footer p {
 	margin: auto;
 	text-align: center;
 	padding-bottom: 2%;
-	font-size: 150%;
+/*	font-size: 150%;*/
 	padding-top: 2%;
 }
 
@@ -715,16 +715,53 @@ footer p {
 	width: 50%;
 	margin: auto;
 	float: right;
-	font-size: 150%;
-	padding-top: 2%;
+/*	font-size: 150%;*/
+	padding-top: 12%;
+}
+
+.history-sub-right-0 {
+	width: 50%;
+	margin: auto;
+	float: right;
+/*	font-size: 150%;*/
+	padding-top: 20%;
+}
+
+.history-sub-right-1 {
+	width: 50%;
+	margin: auto;
+	float: right;
+/*	font-size: 150%;*/
+	padding-top: 32%;
 }
 
 .history-sub-left {
 	width: 50%;
 	margin: auto;
 	float: left;
-	font-size: 150%;
-	padding-top: 2%;
+/*	font-size: 150%;*/
+	padding-top: 18%;
+    padding-bottom: 15%;
+}
+
+.history-sub-left-3 {
+	width: 50%;
+	margin: auto;
+	float: left;
+/*	font-size: 150%;*/
+	padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+.history-sub-left-2 {
+	width: 50%;
+	margin: auto;
+	float: left;
+/*	font-size: 150%;*/
+/*
+	padding-top: 18%;
+    padding-bottom: 15%;
+*/
 }
 
 .history-altar-sub {
@@ -771,7 +808,7 @@ footer p {
 	border-radius: 50px 15px 50px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 20%;
+/*	margin-top: 20%;*/
 }
 
 .history-img-3{
@@ -784,7 +821,7 @@ footer p {
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 46%;
+	margin-top: 10%;
 }
 
 .history-img-4{
@@ -797,7 +834,7 @@ footer p {
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 26%;
+	margin-top: 8%;
 }
 
 .history-img-4-sub{
@@ -821,7 +858,7 @@ footer p {
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 8%;
+	margin-top: 5%;
 }
 
 .history-img-5-sub{
@@ -845,7 +882,7 @@ footer p {
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 2%;
+/*	margin-top: 2%;*/
 }
 
 .history-img-6-sub{
@@ -867,7 +904,7 @@ footer p {
 	border-radius: 50px 15px 15px 30px;
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
-	margin-top: 2%;
+	margin-top: 3%;
 }
 
 .history-img-7-sub{
@@ -875,8 +912,8 @@ footer p {
 	display: inline-block; 
 	margin-right: 5%;
 	text-align: center;
-	margin-top: 2%;
-	font-size: 100%;
+/*	margin-top: %;*/
+/*	font-size: 100%;*/
 	width: 30%;
 	font-weight: bold;
 }
