@@ -744,6 +744,15 @@ footer p {
     padding-bottom: 15%;
 }
 
+.history-sub-left-4 {
+	width: 50%;
+	margin: auto;
+	float: left;
+/*	font-size: 150%;*/
+	padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .history-sub-left-3 {
 	width: 50%;
 	margin: auto;
