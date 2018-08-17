@@ -1666,6 +1666,23 @@ footer p {
     margin-bottom: 6%;
 }
 
+/* bulletin */
+
+#p1 {
+	margin-top: 30px;
+}
+
+.grow {
+	transition: all .2s ease-in-out;
+	padding-bottom: 4px;
+}
+
+#p1 .grow:hover {
+	transform: scale(.8);
+}
+
+
+
 
 
 @media (max-width: 1024px) {

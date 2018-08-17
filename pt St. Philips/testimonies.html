@@ -12,14 +12,17 @@
 <!-- CSS from scratch -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
+<!-- Lightbox CSS -->
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
 <!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Merriweather" rel="stylesheet">
 
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	
+	
+<!-- Lightbox JS -->
+	<script type="text/javascript" src="lightbox.min.js"></script>
+	<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
 
 </head>
 <body>
@@ -36,7 +39,7 @@
 					<li id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="current dropdown-toggle"><a href="#">About</a></li>
 						<li class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 							<a class="dropdown-item" href="about.html">INFO</a>
-							<a class="dropdown-item" href="testimonies.html">TESTIMONIES</a>
+							<a class="dropdown-item" href="testimonies.html">FROM THE RECTOR</a>
     						<a class="dropdown-item" href="events.html">EVENTS</a>
     						<a class="dropdown-item" href="rentals.html">RENTALS</a>
     						<a class="dropdown-item" href="pastoralcare.html">PASTORAL CARE</a>
@@ -60,9 +63,18 @@
 </div>
 </div>
     
-    <div>
-    <a href=""><h1>Ordinary Time</h1></a>
+<div id="p1" class="container">
+
+  <div id="row-1" class="row">
+
+    <div class="col-sm">
+      <a href="bulletin/From the Rector.jpg" data-lightbox="gallery" data-title="From the Rector"> <img class="grow" src="thumb/thumb 1.jpg" width="200vw" height="200vh"></a>
+      <br>
+      <h6>Ordinary Time Aug 08, 2018</h2>
     </div>
+
+</div>
+</div>
 <!-- Testimonies End -->
 
 <!-- Footer -->
@@ -91,6 +103,12 @@
 	<footer>
 		<p>2017 &copy; St. Philip's Church. All rights reserved.</p>
 	</footer>		
+
+<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 </body>
 </html>
