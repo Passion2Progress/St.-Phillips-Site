@@ -466,6 +466,27 @@ footer p {
 	text-align: center;
 	font-size: 120%;
 }
+
+	/* contact portion */
+
+
+#contact-line {
+	text-align: right;
+	width: 22%; 
+	height: 18%; 
+	background-color: #ACACAC; 
+	float: left; 
+	overflow: hidden; 
+	position: relative; 
+	display: inline-block;
+	top: 9vw;
+	left: 8vw;
+	color: white;
+	background-color: #737373;
+	padding: 2px;
+	border: 2px solid white;
+}
+
 /* Footer End */
 
 
@@ -1708,14 +1729,26 @@ footer p {
     }
     
     .volunteer-content p {
-        width: 100%;
-        text-align: center;
+    width: 100%;
+    text-align: center;
     }
     
     #actual-button {
-        font-size: 125%;
+    font-size: 125%;
     }
-    
+
+    #contact-line {
+	display: inline-block;
+	width: 40%; 
+	margin-left: 34vw;
+	margin-right: 0;
+	text-align: center;
+	overflow: hidden;
+	position: inherit;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	}
+
 }
 
 @media (max-width: 769px) {
@@ -1796,6 +1829,11 @@ footer p {
         text-align: center;
     }
     
+    #contact-line {
+	margin-left: 23vw;
+	width: 55%;
+	}
+
 }
 
 @media (max-width: 426px) {
@@ -1884,6 +1922,11 @@ footer p {
         font-size: 250%;
         text-align: center;
     }
+
+     #contact-line {
+	margin-left: 25vw;
+	width: 50%;
+	}
     
 }
 
@@ -1945,8 +1988,15 @@ footer p {
     display: inline-block;
     width: 200px;
     height: auto;
-}
+	}
 
+     #contact-line {
+	margin-left: 20vw;
+	width: 60%;
+	}
+
+
+/* New Rector */
 
 .staff-role-lee {
     margin: auto;
