@@ -74,12 +74,25 @@
 
 					
 			</article>
-
-			<div id="actual-b-button">
-				<a class="btn btn-primary btn-lg volunteerism-button" id="volunteerism-button" href="mailto:st_philips_church@yahoo.com">CONTACT</a>
+			
+			<div id="actual-c-button">
+				<button class="btn btn-primary btn-lg volunteerism-button" onclick="seemore0()"> CONTACT</button>
 			</div>
+
+		</div>
 	</div>
-</section>
+	  </section>
+
+	<div id="myModal-0" class="modal-0">
+					  <!-- Modal content -->
+					  <div class="modal-content-0">
+					    <span onclick="close0()" class="close">&times;</span>
+					    	<p>Have an event coming up? <br><br>
+							Contact Father Lee at 646-856-6464.
+							</p>
+					  </div>
+	</div>
+
 <div id="myModal" class="modal">
 					  <!-- Modal content -->
 					  <div class="modal-content">
@@ -92,7 +105,6 @@
 					    <br>
 						If you are interested in this sacrament, please e-mail us at stphilipschurch.org or call our Parish Administrator at 212-862-4940.</p>
 					  </div>
-					</div>
     </div>
     <div class="col">
       <section id="confirmation">
@@ -106,8 +118,19 @@
 				</article>
 
 				<div id="actual-c-button">
-					<a class="btn btn-primary btn-lg volunteerism-button" id="volunteerism-button" href="mailto:st_philips_church@yahoo.com">CONTACT</a>
+				<button class="btn btn-primary btn-lg volunteerism-button" onclick="seemore0()"> CONTACT</button>
+
+				<div id="myModal-0" class="modal-0">
+					  <!-- Modal content -->
+					  <div class="modal-content-0">
+					    <span onclick="close0()" class="close">&times;</span>
+					    	<p>Have an event coming up? <br><br>
+							Contact Father Lee at 646-856-6464.
+							</p>
+					  </div>
 				</div>
+
+			</div>
 		</div>
 	  </section>
 					<div id="myModal-2" class="modal-2">
@@ -143,9 +166,19 @@
 					<button id="myBtn-3" onclick="seemore3()">see more</button>
 			</article>
 
-			<div id="actual-b-button">
-				<a class="btn btn-primary btn-lg volunteerism-button" id="volunteerism-button" href="mailto:st_philips_church@yahoo.com">CONTACT</a>
-			</div>
+			<div id="actual-c-button">
+				<button class="btn btn-primary btn-lg volunteerism-button" onclick="seemore0()"> CONTACT</button>
+
+				<div id="myModal-0" class="modal-0">
+					  <!-- Modal content -->
+					  <div class="modal-content-0">
+					    <span onclick="close0()" class="close">&times;</span>
+					    	<p>Have an event coming up? <br><br>
+							Contact Father Lee at 646-856-6464.
+							</p>
+					  </div>
+				</div>
+	</div>
 	</div>
 </section>
 
@@ -173,9 +206,18 @@
 					<button id="myBtn-4" onclick="seemore4()">see more</button>
 			</article>
 
-			<div id="actual-b-button">
-				<a class="btn btn-primary btn-lg volunteerism-button" id="volunteerism-button" href="mailto:st_philips_church@yahoo.com">CONTACT</a>
-			</div>
+			<div id="actual-c-button">
+				<button class="btn btn-primary btn-lg volunteerism-button" onclick="seemore0()"> CONTACT</button>
+
+				<div id="myModal-0" class="modal-0">
+					  <!-- Modal content -->
+					  <div class="modal-content-0">
+					    <span onclick="close0()" class="close">&times;</span>
+					    	<p>Have an event coming up? <br><br>
+							Contact Father Lee at 646-856-6464.
+							</p>
+					  </div>
+				</div>
 
 	</div>
 </section>
@@ -253,6 +295,9 @@
 	</footer>		
 
 <script type="text/javascript">
+var modal0 = document.getElementById('myModal-0');
+// Get the button that opens the modal
+
 var modal = document.getElementById('myModal');
 // Get the button that opens the modal
 
@@ -282,6 +327,9 @@ var modal4 = document.getElementById('myModal-4');
 //         modal1.style.display = "block";
 //     }
 // }
+function seemore0() {
+	modal0.style.display = "block";
+}
 
 function seemore() {
 	modal.style.display = "block";
@@ -302,6 +350,10 @@ function seemore4() {
 
 
 // When the user clicks on <span> (x), close the modal
+function close0() {
+        modal0.style.display = "none";
+    }
+
 function close1() {
         modal.style.display = "none";
     }
@@ -320,6 +372,9 @@ function close4() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
+	if (event.target == modal0) {
+        modal0.style.display = "none";
+    }
     if (event.target == modal) {
         modal.style.display = "none";
     }
