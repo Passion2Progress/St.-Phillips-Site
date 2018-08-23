@@ -1693,6 +1693,15 @@ footer p {
 	margin-top: 30px;
 }
 
+.mag[type=checkbox] {
+	display: none;
+}
+
+.mag[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
 .grow {
 	transition: all .2s ease-in-out;
 	padding-bottom: 4px;
@@ -1701,10 +1710,6 @@ footer p {
 #p1 .grow:hover {
 	transform: scale(.8);
 }
-
-
-
-
 
 @media (max-width: 1024px) {
     #map {
