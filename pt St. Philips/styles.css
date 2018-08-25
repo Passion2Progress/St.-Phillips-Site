@@ -706,6 +706,63 @@ footer p {
 	padding-top: 2%;
 }
 
+#history-pg2 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg3 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg4 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg5 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg6 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg7 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg8 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg9 {
+	display: none;
+	padding-top: 2%;
+}
+
+#history-pg10 {
+	display: none;
+	padding-top: 2%;
+}
+
+.page-turn {
+	margin: auto;
+	display: block;
+	float: right;
+}
+
+.page-back {
+	margin: auto;
+	display: block;
+	float: left;
+}
+
 .history-header-green {
 	color: white;
 	border: 6px solid #F1F1F1;
