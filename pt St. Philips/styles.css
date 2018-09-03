@@ -902,6 +902,19 @@ footer p {
 /*	margin-top: 20%;*/
 }
 
+.logo-history {
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-left: 15%;
+    margin-top: 4%;
+    max-height: 60%; 
+	max-width: 60%; 
+}
+
 .history-img-3{
 	width: 30%;
 	float: right;
@@ -915,6 +928,19 @@ footer p {
 	margin-top: 10%;
 }
 
+.past-history {
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-left: 10%;
+    margin-top: 4%;
+    max-height: 80%; 
+	max-width: 80%; 
+}
+
 .history-img-4{
 	width: 28%;
 	float: right;
@@ -926,6 +952,19 @@ footer p {
 	box-shadow: 0px 0px 20px #888888;
 	margin-right: 5%;
 	margin-top: 8%;
+}
+
+.peter-history {
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+	margin-left: 20%;
+    margin-top: 4%;
+    max-height: 100%; 
+	max-width: 100%; 
 }
 
 .history-img-4-sub{
@@ -963,6 +1002,18 @@ footer p {
 	font-size: 100%;
 }
 
+.chew-history {
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-top: 4%;
+    max-height: 60%; 
+	max-width: 60%; 
+}
+
 .history-img-6{
 	width: 21%;
 	float: right;
@@ -985,6 +1036,18 @@ footer p {
 	text-align: center;
 	margin-top: 2%;
 	font-size: 100%;
+}
+
+.front-church-history {
+	float: right;
+	margin: 0;
+	display: inline-block;
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-top: 4%;
+    max-height: 60%; 
+	max-width: 60%; 
 }
 
 .history-img-7{
