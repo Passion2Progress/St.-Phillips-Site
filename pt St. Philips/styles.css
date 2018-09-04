@@ -704,6 +704,7 @@ footer p {
 
 #history-start {
 	padding-top: 2%;
+	transition: .5s ease;
 }
 
 #history-pg2 {
@@ -711,9 +712,17 @@ footer p {
 	padding-top: 2%;
 }
 
+.pg2-sub {
+	margin-top: 2%;
+}
+
 #history-pg3 {
 	display: none;
 	padding-top: 2%;
+}
+
+.pg3-sub {
+	margin-top: 2%;
 }
 
 #history-pg4 {
@@ -721,9 +730,17 @@ footer p {
 	padding-top: 2%;
 }
 
+.pg4-sub {
+	margin-top: 2%;
+}
+
 #history-pg5 {
 	display: none;
 	padding-top: 2%;
+}
+
+.pg5-sub {
+	margin-top: 13%;
 }
 
 #history-pg6 {
@@ -731,9 +748,17 @@ footer p {
 	padding-top: 2%;
 }
 
+.pg6-sub {
+	margin-top: 13%;
+}
+
 #history-pg7 {
 	display: none;
 	padding-top: 2%;
+}
+
+.pg7-sub {
+	margin-top: 6%;
 }
 
 #history-pg8 {
@@ -741,9 +766,17 @@ footer p {
 	padding-top: 2%;
 }
 
+.pg8-sub {
+	margin-top: 14%;
+}
+
 #history-pg9 {
 	display: none;
 	padding-top: 2%;
+}
+
+.pg9-sub {
+	margin-top: 2%;
 }
 
 #history-pg10 {
@@ -751,16 +784,28 @@ footer p {
 	padding-top: 2%;
 }
 
+.pg10-sub {
+	margin-top: 2%;
+}
+
 .page-turn {
 	margin: auto;
 	display: block;
 	float: right;
+	background-color: #A41E23;
+	color: white;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .page-back {
 	margin: auto;
 	display: block;
 	float: left;
+	background-color: #A41E23;
+	color: white;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .history-header-green {
@@ -1073,6 +1118,19 @@ footer p {
     margin-top: 1%;
 }
 
+.directors-history {
+	float: right;
+	margin: 0;
+	display: inline-block;
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-top: 4%;
+    margin-right: 4%;
+    max-height: 50%; 
+	max-width: 50%; 
+}
+
 .history-img-8{
 	width: 21%;
 	float: left;
@@ -1098,6 +1156,30 @@ footer p {
 	font-weight: bold;
 }
 
+.hale-history {
+	float: right;
+	margin: 0;
+	display: inline-block;
+	border: 1em solid white; 
+	border-radius: 50px 15px 50px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-top: 4%;
+    max-height: 55%; 
+	max-width: 55%; 	
+}
+
+.directors-history-sub {
+	float: right;
+	display: inline-block; 
+/*	margin-right: 5%;*/
+	text-align: center;
+/*	margin-top: %;*/
+	width: 40%;
+	font-weight: bold;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+
 .history-img-9{
 	width: 21%;
 	float: left;
@@ -1111,6 +1193,45 @@ footer p {
     margin-left: 2%;
     margin-right: 2%;
 /*	margin-top: 11%;*/
+}
+
+.moran-history {
+	width: relative;
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	text-align: center;
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.chester-history {
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	text-align: center;
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.moran-history-sub {
+	float: right;
+	display: inline-block; 
+/*	margin-right: 5%;*/
+	text-align: center;
+/*	margin-top: %;*/
+	width: 40%;
+	font-weight: bold;
+    margin-top: 1%;
+    margin-right: 10%;
 }
 
 .history-img-10{
@@ -1127,6 +1248,19 @@ footer p {
 
 }
 
+.clemons-history {
+	float: left;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	text-align: center;
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .history-img-11{
 	width: 21%;
 	float: right;
@@ -1140,6 +1274,20 @@ footer p {
 	margin-top: 3%;
 }
 
+.johnson-history {
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	text-align: center;
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
 .history-img {
 	width: 50%;
 	float: right;
@@ -1150,7 +1298,33 @@ footer p {
 	margin-top: 4%;
 }
 
+.fr-history {
+	float: right;
+	max-height: 50%; 
+	max-width: 50%; 
+	display: inline-block; 
+	border: 1em solid white; 
+	text-align: center;
+	border-radius: 50px 15px 15px 30px;
+	box-shadow: 0px 0px 20px #888888;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
 
+.rarrow {
+	height: 1vw;
+	width: 1vw;
+}
+
+.lrarrow {
+	height: 1vw;
+	width: 1vw;
+}
+
+.larrow {
+
+}
 
 /* History End */
 
