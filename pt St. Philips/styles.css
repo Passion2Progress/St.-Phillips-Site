@@ -466,6 +466,44 @@ footer p {
 	font-size: 120%;
 }
 
+/* new footer */
+
+#new-footer {
+	background: #ACACAC;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+#footer-new-head {
+	font-size: 32px;
+    color: #FFFFFF;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    font-style: italic;
+    font: 'Merriweather', Helvetica, sans-serif;
+}
+
+#new-contact-line {
+	text-align: center;
+    background-color: #ACACAC;
+  	margin: auto;
+    color: white;
+    background-color: #737373;
+    padding: 2px 2px 0 2px;
+    border: 2px solid white;
+    padding-top: 10px;
+    font-size: 15px;
+    font: 'Josefin Sans', Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#new-map {
+
+}
+
 	/* contact portion */
 
 
@@ -2165,6 +2203,11 @@ footer p {
 	width: 55%;
 	}
 
+	.joinus {
+	margin-left: 6%;
+	}
+
+
 }
 
 @media (max-width: 426px) {
@@ -2336,6 +2379,8 @@ footer p {
     width: 100%;
     padding-left: 50%:
 }
+
+
 
 
 
