@@ -2076,6 +2076,10 @@ footer p {
 	margin-top: 16px;
 	}
 
+	.joinus {
+		margin-left: 0;
+	}
+
 }
 
 @media (max-width: 769px) {
