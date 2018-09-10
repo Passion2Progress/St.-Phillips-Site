@@ -360,9 +360,23 @@ header a:hover {
 	font-size: 125%;
 }
 
+.new-event-container {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin: auto; 
+	text-align: center;
+}
+
 .new-event-img {
 	border: 6px solid grey; 
 	width: 70%;
+}
+
+.new-event-title {
+	color: white; 
+	background-color: grey; 
+	width: 70%; 
+	margin: auto;
 }
 
 .new-event-sub {
