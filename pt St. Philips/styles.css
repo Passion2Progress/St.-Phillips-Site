@@ -360,6 +360,27 @@ header a:hover {
 	font-size: 125%;
 }
 
+.new-event-img {
+	border: 6px solid grey; 
+	width: 70%;
+}
+
+.new-event-sub {
+	color: black; 
+	background-color: grey; 
+	width: 70%; 
+	margin: auto; 
+	font-weight: bold; 
+	padding-bottom: 2%;
+}
+
+.new-span {
+	color: #BA2026; 
+	font-size: 200%; 
+	font-weight: bold; 
+	margin-right: 0.1em;
+}
+
 /* event end */
 
 /* Rentals */
