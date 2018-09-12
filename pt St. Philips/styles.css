@@ -360,9 +360,23 @@ header a:hover {
 	font-size: 125%;
 }
 
+.new-event-container-last {
+	padding-top: 32px;
+	padding-bottom: 64px;
+	margin: auto; 
+	text-align: center;
+}
+
+.new-event-container-first {
+	padding-top: 64px;
+	padding-bottom: 32px;
+	margin: auto; 
+	text-align: center;
+}
+
 .new-event-container {
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	margin: auto; 
 	text-align: center;
 }
@@ -386,6 +400,15 @@ header a:hover {
 	margin: auto; 
 	font-weight: bold; 
 	padding-bottom: 2%;
+}
+
+.new-event-title-sub {
+	color: white; 
+	background-color: grey; 
+	width: 70%; 
+	margin: auto; 
+	padding-bottom: 2%;
+	font-size: 130%;
 }
 
 .new-span {
