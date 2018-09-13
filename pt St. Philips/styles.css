@@ -418,6 +418,43 @@ header a:hover {
 	margin-right: 0.1em;
 }
 
+.new-event-title-c {
+	color: white; 
+	background-color: #BA2026; 
+	width: 70%; 
+	margin: auto;
+}
+
+.new-event-sub-c {
+	color: black; 
+	background-color: #BA2026; 
+	width: 70%; 
+	margin: auto; 
+	font-weight: bold; 
+	padding-bottom: 2%;
+}
+
+.new-event-img-c {
+	border: 6px solid #BA2026; 
+	width: 70%;
+}
+
+.new-event-title-sub-c {
+	color: white; 
+	background-color: #BA2026; 
+	width: 70%; 
+	margin: auto; 
+	padding-bottom: 2%;
+	font-size: 130%;
+}
+
+.new-span-c {
+	color: grey; 
+	font-size: 200%; 
+	font-weight: bold; 
+	margin-right: 0.1em;
+}
+
 /* event end */
 
 /* Rentals */
@@ -593,28 +630,28 @@ footer p {
 /* INLINE STYLE ON HTML IN SERVICES TAB FOR MARGIN */
 
 #services-img {
-	background-image: url("./pics/Church interior.JPG");
+	background-image: url("./pics/compress/interior.jpg");
 	background-position: center;
 	background-size: cover;
 	width: 100%;
 }
 
 #music-img {
-	background-image: url("./pics/Choir.jpg");
+	background-image: url("./pics/compress/Choir.jpg");
 	background-position: center;
 	background-size: cover;
 	width: 100%;
 }
 
 #bulletin-img {
-	background-image: url("./pics/Baptismal Font - Tree of Life.jpg");
+	background-image: url("./pics/compress/tree.jpg");
 	background-position: center;
 	background-size: cover;
 	width: 100%;
 }
 
 #staff-img {
-	background-image: url("./pics/Altar1.png");
+	background-image: url("./pics/compress/Altar1.jpg");
 	background-position: center;
 	background-size: cover;
 	width: 100%;
@@ -653,6 +690,11 @@ footer p {
 	background-position: center;
 	background-size: cover;
 	width: 100%;
+}
+
+#vest {
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 #services {
@@ -2265,7 +2307,14 @@ footer p {
 	margin-left: 6%;
 	}
 
+	#staff-img-container .container {
+		width: 100%;
+	}
 
+	#vest {
+		width: 300px;
+		height: 200px;
+	}
 }
 
 @media (max-width: 426px) {
@@ -2358,6 +2407,16 @@ footer p {
      #contact-line {
 	margin-left: 25vw;
 	width: 50%;
+	}
+
+	#vest {
+		width: 200px;
+		height: 100px;
+	}
+
+	.vest-col {
+		margin: 0;
+		padding: 0;
 	}
     
 }
