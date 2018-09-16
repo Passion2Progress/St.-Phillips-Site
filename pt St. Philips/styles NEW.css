@@ -1,0 +1,8 @@
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.navbar-nav a {
+z-index: 10000;
+ }
