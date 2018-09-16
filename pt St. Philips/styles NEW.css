@@ -1,8 +1,20 @@
-.navbar {
-  padding-bottom: 0;
-  padding-top: 0;
+.navbar-toggler {
+  color: white;
+  background-color: #b81319;
+  border-color: white;
 }
 
-.navbar-nav a {
-z-index: 10000;
- }
+.new-footer- {
+}
+
+#footer-new-head- {
+  color: black;
+}
+
+$zindex-dropdown:          1000 !default;
+$zindex-sticky:            1020 !default;
+$zindex-fixed:             1030 !default;
+$zindex-modal-backdrop:    1040 !default;
+$zindex-modal:             1050 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
