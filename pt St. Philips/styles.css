@@ -8,6 +8,10 @@ body{
 	background-color: #f4f4f4;
 }
 
+hr {
+	width: 80%;
+}
+
 #top-bot-border {
     border-bottom: 6px solid #737373;
 }
