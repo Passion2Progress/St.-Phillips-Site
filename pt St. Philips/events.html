@@ -328,6 +328,23 @@
 					Prior to the day, parishioners are asked to contribute lunch items - cold cuts/bread/individual packaged drinks/condiments.
 	      </p>
 	    </div>
+	    <div class="col-sm">
+	      <a href="./pics/compress/museum.JPG" data-lightbox="museum" data-title="."><h1 class="new-event-title-c">
+	      	St. Philips Museum Exhibit </h1></a>
+	      <h3 class="new-event-title-sub-c">September 7, 2018 to March 3, 2019</h3>
+	      <p class="new-event-sub-c">
+	      	<i>		<span class="new-span-c">
+					N
+					</span>
+					inety minute free fitness classes for seniors on Thursdays @2 p.m.</i> 
+					<br>
+					<br>
+					Dates for St. Philips are every third Sunday of the month.  
+					<br>
+					<br>
+					Prior to the day, parishioners are asked to contribute lunch items - cold cuts/bread/individual packaged drinks/condiments.
+	      </p>
+	    </div>
 	  </div>
 	</div>
 
@@ -338,7 +355,7 @@
 	      <h1 class="new-event-title">
 	      	Harry T. Burleigh Society
 	      </h1>
-	      <a href="./pics/thurgood.jpg" data-lightbox="gallery" data-title="."><img src="./pics/harry.png" class="new-event-img"></a>
+	      <a href="./pics/compress/harryt.JPG" data-lightbox="gallery" data-title="."><img src="./pics/harry.png" class="new-event-img"></a>
 	      <h3 class="new-event-title-sub">Advancing Burleigh Studies Through Scholarship and Performance</h3>
 	      <p class="new-event-sub">
 	      	<i>		<span class="new-span">
@@ -346,27 +363,32 @@
 
 					</span>
 					B. Burleigh (166-1949) was an African American classical composer, arranger, and professional singer known for his baritone voice.  </i>
+
+					<br>
+					<i id="subT" style="display: none;">He was the first black composer to be instrumental in the development of a characteristically American music
 					<br>
 					<br>
-					<i>He was the first black composer to be instrumental in the development of a characteristically American music </i>
+					and he helped to make black music available to classically trained artists both by introducing them to the music 
+					and by arranging the music in a more classical form.
 					<br>
 					<br>
-					<i>and he helped to make black music available to classically trained artists both by introducing them to the music </i>
-					<i>and by arranging the music in a more classical form.</i>
+					<a href="www.burleighsociety.com">www.burleighsociety.com</a>
 					<br>
 					<br>
-					<i><a href="www.burleighsociety.com">www.burleighsociety.com</a></i>
-					<br>
-					<br>
-					<i>Featuring Darcel Clark, 13th District Attorney for Bronx
+					Featuring Darcel Clark, 13th District Attorney for Bronx
 					County</i>
+					
+					<div>
+					<button id="more" onclick="seeM()">see more</button>
+					<button id="less" onclick="seeL()" style="display: none;">see less</button>
+					</div>
 	      </p>
 	    </div>
 	    <div class="col-sm">
 	      <h1 class="new-event-title">
 	      	Law Day
 	      </h1>
-	      <a href="./pics/thurgood.jpg" data-lightbox="gallery" data-title="."><img src="./pics/thurgood.jpg" class="new-event-img"></a>
+	      <img src="./pics/thurgood.jpg" class="new-event-img">
 	      <p class="new-event-sub">
 	      	<i>		<span class="new-span">
 					T
@@ -458,9 +480,25 @@
 <script type="text/javascript">
 var modal = document.getElementById('myModal');
 
+var seemore = document.getElementById('more');
+var seeless = document.getElementById('less');
+var text = document.getElementById('subT');
+
 // }
 function seemore0() {
 	modal0.style.display = "block";
+}
+
+function seeM() {
+	seemore.style.display = "none";
+	seeless.style.display = "initial";
+	text.style.display = "initial";
+}
+
+function seeL() {
+	seemore.style.display = "initial";
+	seeless.style.display = "none";
+	text.style.display = "none";
 }
 
 // When the user clicks on <span> (x), close the modal

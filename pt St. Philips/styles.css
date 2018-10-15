@@ -406,6 +406,16 @@ header a:hover {
 	padding-bottom: 2%;
 }
 
+.new-event-sub-1 {
+	color: black; 
+	background-color: grey; 
+	width: 70%; 
+	margin: auto; 
+	font-weight: bold; 
+	padding-bottom: 2%;
+	display: none;
+}
+
 .new-event-title-sub {
 	color: white; 
 	background-color: grey; 
