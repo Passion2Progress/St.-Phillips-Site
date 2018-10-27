@@ -469,6 +469,43 @@ header a:hover {
 	margin-right: 0.1em;
 }
 
+.new-event-title-t {
+	color: black; 
+	background-color: #b38b6d; 
+	width: 70%; 
+	margin: auto;
+}
+
+.new-event-sub-t {
+	color: black; 
+	background-color: #b38b6d; 
+	width: 70%; 
+	margin: auto; 
+	font-weight: bold; 
+	padding-bottom: 2%;
+}
+
+.new-event-img-t {
+	border: 6px solid #b38b6d; 
+	width: 70%;
+}
+
+.new-event-title-sub-t {
+	color: white; 
+	background-color: #b38b6d; 
+	width: 70%; 
+	margin: auto; 
+	padding-bottom: 2%;
+	font-size: 130%;
+}
+
+.new-span-t {
+	color: white; 
+	font-size: 200%; 
+	font-weight: bold; 
+	margin-right: 0.1em;
+}
+
 /* event end */
 
 /* Rentals */
@@ -2183,6 +2220,10 @@ footer p {
 
 #p1 .grow:hover {
 	transform: scale(.8);
+}
+
+.ftr {
+	text-align: center;
 }
 
 @media (min-width: 1440px) {
