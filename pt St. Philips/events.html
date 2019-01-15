@@ -68,10 +68,29 @@
 	      Minister Candace Simpson
 	  	  </h3>
 
-	  	  <img src="">
+	  	  <img src="./pics/compress/candice.jpg" class="new-event-img-c">
 		      <p class="new-event-sub-c">
-		      	<a href="">see more</a>
 		      </p>
+
+
+		      
+
+			<p class="new-event-sub-c">
+	      	<i>		
+					<i id="subT2" style="display: none;">
+						<span class="new-span-c">
+						M
+						</span>
+						inister Candace Simpson is a sister, preacher and educator. She is also the former sit coordinator of the Concord, Freedom School, a literacy-based social justice, education program for children in Bedford-Stuyvesant. She is a graduate of Trinity College and Union Theological Seminary. Currently, Minister Simpson serves on a team of Faith and Justice Educators for the United Methodist Women and is an associate minister at Concord Baptist Church of Christ. It is Candace's philosophy that Heav is a Revolution that can happen right here on Earth.
+					</i>
+			</i>
+					
+					<div>
+					<button id="more2" onclick="seeM2()">see more</button>
+					<button id="less2" onclick="seeL2()" style="display: none;">see less</button>
+					</div>
+	      </p>		
+
 	    </div>
 	  	<div class="col-sm">
 	    	<h1 class="new-event-title-c">
@@ -648,6 +667,10 @@ var seemore = document.getElementById('more');
 var seeless = document.getElementById('less');
 var text = document.getElementById('subT');
 
+var seemore2 = document.getElementById('more2');
+var seeless2 = document.getElementById('less2');
+var text2 = document.getElementById('subT2');
+
 // }
 function seemore0() {
 	modal0.style.display = "block";
@@ -663,6 +686,18 @@ function seeL() {
 	seemore.style.display = "initial";
 	seeless.style.display = "none";
 	text.style.display = "none";
+}
+
+function seeM2() {
+	seemore2.style.display = "none";
+	seeless2.style.display = "initial";
+	text2.style.display = "initial";
+}
+
+function seeL2() {
+	seemore2.style.display = "initial";
+	seeless2.style.display = "none";
+	text2.style.display = "none";
 }
 
 // When the user clicks on <span> (x), close the modal
