@@ -2226,6 +2226,39 @@ footer p {
 	text-align: center;
 }
 
+.banner-red {
+	color: white;
+	border: 6px solid #F1F1F1;
+	background-color: #BA2026;
+	box-shadow: 0px 0px 20px #888888;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 40%;
+	margin: auto;
+}
+
+.banner-beige {
+	color: white;
+	border: 6px solid #F1F1F1;
+	background-color: #b38b6d;
+	box-shadow: 0px 0px 20px #888888;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 40%;
+	margin: auto;
+}
+
+.banner-grey {
+	color: white;
+	border: 6px solid #F1F1F1;
+	background-color: grey;
+	box-shadow: 0px 0px 20px #888888;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 40%;
+	margin: auto;
+}
+
 @media (min-width: 1440px) {
 
 	#caro-img {
